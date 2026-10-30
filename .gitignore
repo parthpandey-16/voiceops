@@ -1,0 +1,17 @@
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.cache/fastembed/
+Capstone_Project_Dataset_FTTT_2026/
+outputs/
+test_audio/
+*.zip
+.env.*
+!.env.example
+dist/
+.pytest_cache/
+results/_backup*/
+results/_broken*/
+results/app_*.log

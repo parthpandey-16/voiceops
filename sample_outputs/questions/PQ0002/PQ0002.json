@@ -1,0 +1,72 @@
+{
+  "file": "PQ0002.wav",
+  "conversation": "PQ0002",
+  "turn": 1,
+  "transcript": "sq yearly 12 pay zentromart assured",
+  "reply": "Hello! I am ZentroMart's AI support assistant. How can I help you today?",
+  "speech_text": "Hello! I am ZentroMart's AI support assistant. How can I help you today?",
+  "decision": "clarify",
+  "sources": [
+    "STY-1"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "PLS-1",
+      "doc": "pol_plus_membership.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0621,
+      "rank": 1,
+      "text": "ZentroMart Plus costs ₹999 a year."
+    },
+    {
+      "section_id": "WAR-2",
+      "doc": "pol_warranty_assured.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0599,
+      "rank": 2,
+      "text": "Products marked `assured = true` in the catalog carry a 12-month ZentroMart Assured warranty from the delivery date, in addition to any brand warranty. Claims are raised in the app under My Orders, and ZentroMart arranges pickup and repair or replacement."
+    },
+    {
+      "section_id": "MKT-1",
+      "doc": "mkt_plus_benefits_page.md",
+      "doc_type": "marketing",
+      "status": "current",
+      "score": 0.0588,
+      "rank": 3,
+      "text": "Lightning-fast delivery, hassle-free returns and money back faster than ever. Join ZentroMart Plus for just ₹999 a year."
+    },
+    {
+      "section_id": "MKS-3",
+      "doc": "pol_marketplace_sellers.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0588,
+      "rank": 4,
+      "text": "ZentroMart Assured never applies to marketplace seller items, even if the listing says assured. Seller items carry only the brand warranty."
+    },
+    {
+      "section_id": "PLS-2",
+      "doc": "pol_plus_membership.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0573,
+      "rank": 5,
+      "text": "- Free Express delivery where Express is available.\n- No reverse pickup fee on any return.\n- Refunds on returns are initiated at pickup, without waiting for quality check.\n\nZentroMart Plus does **not** change return windows, return eligibility or refund timelines after initiation."
+    },
+    {
+      "section_id": "PAY-1",
+      "doc": "pol_payments_cod.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0554,
+      "rank": 6,
+      "text": "UPI, credit and debit cards, net banking, ZentroMart Wallet and cash on delivery (COD)."
+    }
+  ],
+  "tool_calls": [],
+  "reply_audio": "PQ0002\\PQ0002.reply.wav",
+  "seconds": 6.29,
+  "error": ""
+}

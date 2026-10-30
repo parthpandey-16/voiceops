@@ -1,0 +1,132 @@
+{
+  "file": "PC004_turn5.wav",
+  "conversation": "PC004",
+  "turn": 5,
+  "transcript": "aur refund kitne din mein aayega",
+  "reply": "Refund initiate hone ke baad UPI mein 1 se 3 business days, card mein 5 se 7 business days, aur wallet mein instant aate hain.",
+  "speech_text": "Refund initiate hone ke baad UPI mein 1 se 3 business days, card mein 5 se 7 business days, aur wallet mein instant aate hain.",
+  "decision": "answer",
+  "sources": [
+    "REF-2"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "REF-1",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0587,
+      "rank": 1,
+      "text": "- **Cancelled before shipping:** immediately on cancellation.\n- **Returned item:** after the item passes quality check, within 2 business days of pickup. ZentroMart Plus members: at pickup.\n- **Prepaid order refused at the door or not delivered after 3 attempts:** once the parcel reaches the warehouse, usually 7 to 10 calendar days after the last delivery attempt."
+    },
+    {
+      "section_id": "RET-7",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0582,
+      "rank": 2,
+      "text": "Returned items go through a quality check (QC) at the warehouse. The refund is initiated within 2 business days of pickup once the item passes QC. For ZentroMart Plus members, the refund is initiated at the time of pickup. Refund timelines after initiation are in the Refunds policy."
+    },
+    {
+      "section_id": "RVP-1",
+      "doc": "help_reverse_pickup.md",
+      "doc_type": "help",
+      "status": "current",
+      "score": 0.0497,
+      "rank": 3,
+      "text": "Raise the return from My Orders. Choose a pickup slot. The delivery executive will check the item at the door against the condition rules in RET-4."
+    },
+    {
+      "section_id": "RET-6",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0497,
+      "rank": 4,
+      "text": "Returns are collected from the delivery address through reverse pickup. A reverse pickup fee of ₹49 applies to change-of-mind returns of clothing, footwear and bags. The fee is waived for ZentroMart Plus members and for any item returned because it was damaged, defective or wrong."
+    },
+    {
+      "section_id": "RET-5",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0476,
+      "rank": 5,
+      "text": "Grocery and fresh produce, innerwear, lingerie and swimwear, and gift cards or digital codes cannot be returned for change of mind. If such an item arrives damaged, expired, wrong or missing, follow the Damaged, wrong or missing items policy."
+    },
+    {
+      "section_id": "RET-8",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0462,
+      "rank": 6,
+      "text": "Clothing, footwear and bags from orders **placed between 01 October and 15 October 2026** can be returned within 30 days of delivery. All other categories follow the normal windows in RET-2."
+    },
+    {
+      "section_id": "RET-4",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0311,
+      "rank": 7,
+      "text": "Items must be unused, with original tags, packaging, accessories and free gifts. Beauty and personal care products are returnable only if unopened with the seal intact. Electronics must not be physically damaged, and any screen lock or account lock must be removed."
+    },
+    {
+      "section_id": "REF-2",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0333,
+      "rank": 1,
+      "text": "Refunds go back to the original payment method. Timelines are counted in business days from the day the refund is initiated.\n\n| Payment method | Time to reach you |\n| --- | --- |\n| UPI | 1 to 3 business days |\n| Credit or debit card | 5 to 7 business days |\n| Net banking | 3 to 5 business days |\n| ZentroMart Wallet | Instant, within 2 hours |\n| Bank transfer (NEFT) for cash-on-delivery orders | 5 to 7 business days |\n| ZentroMart Wallet for cash-on-delivery orders | Instant, within 2 hours |"
+    },
+    {
+      "section_id": "KB-00.3",
+      "doc": "00_about_this_knowledge_base.md",
+      "doc_type": "meta",
+      "status": "current",
+      "score": 0.032,
+      "rank": 2,
+      "text": "A business day is Monday to Saturday, excluding the warehouse holidays below. Refund and logistics timelines are counted in business days. Return windows are counted in calendar days.\n\n| Date | Holiday |\n| --- | --- |\n| 2026-08-15 | Independence Day |\n| 2026-10-02 | Gandhi Jayanti |\n| 2026-10-19 | Warehouse closure (festival) |\n| 2026-11-09 | Warehouse closure (festival) |"
+    },
+    {
+      "section_id": "REF-1",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0318,
+      "rank": 3,
+      "text": "- **Cancelled before shipping:** immediately on cancellation.\n- **Returned item:** after the item passes quality check, within 2 business days of pickup. ZentroMart Plus members: at pickup.\n- **Prepaid order refused at the door or not delivered after 3 attempts:** once the parcel reaches the warehouse, usually 7 to 10 calendar days after the last delivery attempt."
+    },
+    {
+      "section_id": "REF-3",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0313,
+      "rank": 4,
+      "text": "For cash-on-delivery orders, the customer chooses either ZentroMart Wallet (instant) or a bank transfer. Bank transfers start only after the bank account details are verified, then take 5 to 7 business days."
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "search_knowledge_base",
+      "args": {
+        "query": "refund timeline business days method"
+      },
+      "result": {
+        "sections": [
+          "[REF-2] How long refunds take after initiation (Refunds policy; policy, current, effective 2026-06-15)\nRefunds go back to the original payment method. Timelines are counted in business days from the day the refund is initiated.\n\n| Payment method | Time to reach you |\n| --- | --- |\n| UPI | 1 to 3 business days |\n| Credit or debit card | 5 to 7 business days |\n| Net banking | 3 to 5 business days |\n| ZentroMart Wallet | Instant, within 2 hours |\n| Bank transfer (NEFT) for cash-on-delivery orders | 5 to 7 business days |\n| ZentroMart Wallet for cash-on-delivery orders | Instant, within 2 hours |",
+          "[KB-00.3] Business days (About this knowledge base; meta, current, effective 2026-08-01)\nA business day is Monday to Saturday, excluding the warehouse holidays below. Refund and logistics timelines are counted in business days. Return windows are counted in calendar days.\n\n| Date | Holiday |\n| --- | --- |\n| 2026-08-15 | Independence Day |\n| 2026-10-02 | Gandhi Jayanti |\n| 2026-10-19 | Warehouse closure (festival) |\n| 2026-11-09 | Warehouse closure (festival) |",
+          "[REF-1] When a refund is initiated (Refunds policy; policy, current, effective 2026-06-15)\n- **Cancelled before shipping:** immediately on cancellation.\n- **Returned item:** after the item passes quality check, within 2 business days of pickup. ZentroMart Plus members: at pickup.\n- **Prepaid order refused at the door or not delivered after 3 attempts:** once the parcel reaches the warehouse, usually 7 to 10 calendar days after the last delivery attempt.",
+          "[REF-3] Cash-on-delivery refunds (Refunds policy; policy, current, effective 2026-06-15)\nFor cash-on-delivery orders, the customer chooses either ZentroMart Wallet (instant) or a bank transfer. Bank transfers start only after the bank account details are verified, then take 5 to 7 business days."
+        ]
+      }
+    }
+  ],
+  "reply_audio": "PC004\\PC004_turn5.reply.wav",
+  "seconds": 7.42,
+  "error": ""
+}

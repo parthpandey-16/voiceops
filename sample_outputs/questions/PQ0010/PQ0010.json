@@ -1,0 +1,74 @@
+{
+  "file": "PQ0010.wav",
+  "conversation": "PQ0010",
+  "turn": 1,
+  "transcript": "is the collection free if the urban thread slim fit jeans came to",
+  "reply": "Hello, I am ZentroMart's AI support assistant. If your UrbanThread slim fit jeans arrived damaged, defective, or wrong, the reverse pickup collection is free.",
+  "speech_text": "Hello, I am ZentroMart's AI support assistant. If your UrbanThread slim fit jeans arrived damaged, defective, or wrong, the reverse pickup collection is free.",
+  "decision": "answer",
+  "sources": [
+    "STY-1",
+    "RET-6",
+    "products.csv:FSH-0029"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "RET-6",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0636,
+      "rank": 1,
+      "text": "Returns are collected from the delivery address through reverse pickup. A reverse pickup fee of ₹49 applies to change-of-mind returns of clothing, footwear and bags. The fee is waived for ZentroMart Plus members and for any item returned because it was damaged, defective or wrong."
+    },
+    {
+      "section_id": "DWM-2",
+      "doc": "pol_damaged_wrong_missing.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0621,
+      "rank": 2,
+      "text": "After verification the customer gets a free replacement or a full refund, including delivery fees. No reverse pickup fee applies."
+    },
+    {
+      "section_id": "RET-4",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0608,
+      "rank": 3,
+      "text": "Items must be unused, with original tags, packaging, accessories and free gifts. Beauty and personal care products are returnable only if unopened with the seal intact. Electronics must not be physically damaged, and any screen lock or account lock must be removed."
+    },
+    {
+      "section_id": "RETv3-6",
+      "doc": "pol_returns_v3_superseded.md",
+      "doc_type": "policy",
+      "status": "superseded",
+      "score": 0.0574,
+      "rank": 4,
+      "text": "Note: This version was replaced by version 4 on 1 August 2026. It still applies only to electronics delivered before 1 August 2026.\nReverse pickup is free for all returns."
+    },
+    {
+      "section_id": "RET-5",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0568,
+      "rank": 5,
+      "text": "Grocery and fresh produce, innerwear, lingerie and swimwear, and gift cards or digital codes cannot be returned for change of mind. If such an item arrives damaged, expired, wrong or missing, follow the Damaged, wrong or missing items policy."
+    },
+    {
+      "section_id": "RET-9",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0568,
+      "rank": 6,
+      "text": "Exchanges for a different size or colour are available on clothing and footwear within the return window, subject to stock. If the new size is out of stock, a return and refund is offered instead."
+    }
+  ],
+  "tool_calls": [],
+  "reply_audio": "PQ0010\\PQ0010.reply.wav",
+  "seconds": 111.12,
+  "error": ""
+}

@@ -1,0 +1,67 @@
+## step2_questions (14 misses)
+PQ0004: missing don't have / do not have / not sure / no information / can't
+PQ0009: missing don't have / do not have / not sure / no information / can't
+PQ0015: decision clarify (expected answer); missing don't have / do not have / not sure / no information / can't
+PQ0027: decision clarify (expected answer)
+PQ0028: decision clarify (expected answer); missing 2026-10-21 / 21 October 2026 / 21 अक्टूबर 2026
+PQ0029: decision clarify (expected answer)
+PQ0035: decision clarify (expected answer)
+PQ0037: missing don't have / do not have / not sure / no information / can't
+PQ0040: decision clarify (expected answer)
+PQ0047: decision clarify (expected answer)
+PQ0048: decision clarify (expected answer); missing 48
+PQ0050: decision clarify (expected answer)
+PQ0054: decision clarify (expected answer)
+PQ0058: decision clarify (expected answer); missing 7
+## step2_questions_asr (22 misses)
+PQ0004: missing don't have / do not have / not sure / no information / can't
+PQ0005: missing 12
+PQ0009: missing don't have / do not have / not sure / no information / can't
+PQ0010: decision clarify (expected answer); missing free / no fee / waived / no charge
+PQ0015: decision clarify (expected answer); missing don't have / do not have / not sure / no information / can't
+PQ0020: decision clarify (expected answer)
+PQ0024: decision clarify (expected answer); missing 15
+PQ0026: missing 12
+PQ0027: decision clarify (expected answer); missing 2026-10-15 / 15 October 2026 / 15 अक्टूबर 2026
+PQ0031: decision escalate (expected answer)
+PQ0032: missing 12
+PQ0033: decision clarify (expected answer)
+PQ0035: decision clarify (expected answer)
+PQ0037: missing don't have / do not have / not sure / no information / can't
+PQ0040: decision escalate (expected answer)
+PQ0044: decision clarify (expected answer)
+PQ0047: decision clarify (expected answer); missing 79 | wallet / ZentroMart Wallet
+PQ0048: decision clarify (expected answer); missing 48
+PQ0050: decision clarify (expected answer)
+PQ0052: decision clarify (expected answer)
+PQ0053: missing don't have / do not have / not sure / no information / can't
+PQ0058: decision clarify (expected answer); missing 7
+## step3_conversations (26 misses)
+PC002:2: decision answer (expected clarify)
+PC002:3: decision escalate (expected answer); tool calls
+PC002:4: decision answer (expected escalate); tool calls
+PC003:2: decision answer (expected clarify)
+PC003:4: missing 2026-10-27 / 27 October 2026 / 27 अक्टूबर 2026
+PC004:4: missing 2026-11-13 / 13 November 2026 / 13 नवंबर 2026 | 49
+PC005:2: decision answer (expected clarify)
+PC007:2: decision answer (expected clarify)
+PC007:3: decision escalate (expected answer); tool calls
+PC008:3: decision escalate (expected answer); tool calls
+PC009:2: decision answer (expected clarify)
+PC009:4: missing quality check / QC / गुणवत्ता जाँच / गुणवत्ता जांच
+PC010:2: decision answer (expected clarify)
+PC010:3: tool calls
+PC010:4: decision answer (expected escalate); missing reference number / RRN / 315633825001; tool calls
+PC012:2: missing last 4 / last four / pincode / pin code / aakhri / आख़िरी / 
+PC015:2: decision answer (expected clarify)
+PC015:4: missing sorry / apolog / maaf
+PC016:2: decision answer (expected clarify)
+PC016:4: missing sorry / apolog / maaf
+PC017:2: missing last 4 / last four / pincode / pin code / aakhri / आख़िरी / 
+PC019:4: decision answer (expected refuse); missing 7
+PC020:4: decision answer (expected refuse); missing 7
+PC021:3: decision refuse (expected clarify); missing again / match / दोबारा / मेल
+PC022:3: decision escalate (expected clarify); missing again / match / दोबारा / मेल; tool calls
+PC022:4: decision escalate (expected refuse); missing registered / can't share / cannot share / नहीं बता / पंजीकृत; tool calls
+## step1_questions (39 misses)
+PQ0002, PQ0003, PQ0005, PQ0006, PQ0008, PQ0010, PQ0013, PQ0014, PQ0016, PQ0018, PQ0019, PQ0021, PQ0022, PQ0025, PQ0026, PQ0027, PQ0028, PQ0029, PQ0031, PQ0032, PQ0035, PQ0036, PQ0037, PQ0039, PQ0040, PQ0041, PQ0042, PQ0044, PQ0045, PQ0047, PQ0048, PQ0049, PQ0050, PQ0051, PQ0054, PQ0056, PQ0057, PQ0058, PQ0059

@@ -1,0 +1,844 @@
+{
+ "KB-00.1": [
+  "If the website says one thing but the support manual says another, which one should I trust?",
+  "Does the old version of the return rules still count if I have a link to it?",
+  "If the marketing ad promises a refund but the official company rules say no, who wins?",
+  "Should I follow the help page or the internal guide if they give different instructions?",
+  "Is the information on the main site more important than the specific policy document?",
+  "Agar website par kuch aur likha hai aur policy document mein kuch aur, toh main kiski baat maanu?",
+  "Purani wali policy abhi bhi valid hai kya ya naye wale rules follow karne padenge?",
+  "अगर कंपनी की वेबसाइट और उनके नियम आपस में टकराते हैं, तो मुझे किसकी बात माननी चाहिए?"
+ ],
+ "KB-00.2": [
+  "What is the current date for checking my order status?",
+  "If I need to return something, what day should I count from?",
+  "Is today considered October 20th for my refund request?",
+  "How do I know which date to use for my delivery deadline?",
+  "Can I assume it is October 20th when calculating my wait time?",
+  "Refund ke liye kaunsi date ko aaj ka din maane?",
+  "Delivery late ho gayi hai, toh kya main 20 October ko deadline pakdu?",
+  "क्या मुझे रिफंड के लिए 20 अक्टूबर को ही आज की तारीख मानना चाहिए?"
+ ],
+ "KB-00.3": [
+  "Is Saturday considered a working day for your team?",
+  "If I want to send something back, do I have a specific number of days to do it?",
+  "Does the warehouse stay open on Independence Day?",
+  "Are Sundays counted when you calculate how long my delivery will take?",
+  "If I request a refund, will the weekend be included in the processing time?",
+  "Kya Saturday ko aapka warehouse khula rehta hai?",
+  "Gandhi Jayanti ke din kya delivery ya return ka kaam hoga?",
+  "क्या 19 अक्टूबर को सामान भेजा या वापस लिया जाएगा?"
+ ],
+ "KB-00.4": [
+  "How do I know which files are for staff and which are for me?",
+  "Where can I find the list of all the available help topics?",
+  "Are these instructions still good to use right now?",
+  "How can I tell if a document is a rule or just a guide?",
+  "What do the different prefixes at the start of the file names mean?",
+  "Ye files mein se kaunsa mere liye hai aur kaunsa staff ke liye?",
+  "Mujhe kaise pata chalega ki kaunsa document policy hai aur kaunsa help article?",
+  "इन फाइलों के नाम का क्या मतलब है और मुझे कौन सा पढ़ना चाहिए?"
+ ],
+ "STY-1": [
+  "Who are you talking to?",
+  "Are you a human or a bot?",
+  "How should I start the conversation when I message you?",
+  "What do I say when I first reach out for help?",
+  "Is there a specific way I need to greet the support team?",
+  "Kya aap ZentroMart ke representative ho?",
+  "Aap kaun bol rahe ho, kya aap machine ho?",
+  "क्या आप ज़ेंट्रोमार्ट की तरफ से बात कर रहे हैं?"
+ ],
+ "STY-2": [
+  "How long should my messages to the support team be?",
+  "Do I need to use a different style when I email you versus when I chat?",
+  "How should I write the date when I'm talking to an agent?",
+  "Do I have to include a greeting and a sign-off in every single message?",
+  "Should I put the answer to my problem at the very beginning of my email?",
+  "Chat karte waqt kitna lamba message likhna chahiye?",
+  "Kya email mein date likhne ka koi khaas tareeka hai?",
+  "क्या मुझे हर मैसेज में नमस्ते और धन्यवाद लिखना ज़रूरी है?"
+ ],
+ "STY-3": [
+  "How long should my response be when I call you?",
+  "How do I say the date when I'm talking to a customer?",
+  "Should I read out the whole order number at once or break it up?",
+  "How should I mention the price of an item during a call?",
+  "Do these rules apply if I am helping someone over email instead of the phone?",
+  "Customer se baat karte waqt kitna lamba jawab dena chahiye?",
+  "Order ID bolne ka sahi tarika kya hai?",
+  "क्या मुझे पैसे रुपयों में बताने चाहिए?"
+ ],
+ "STY-4": [
+  "Can I talk to you in Spanish?",
+  "If I start typing in French, will you reply in French too?",
+  "Do I have to speak English to get help?",
+  "If I change the language mid-chat, will you follow along?",
+  "Does this apply to phone calls or just emails?",
+  "Agar main Hindi mein baat karun toh aap reply karoge?",
+  "Kya main aapse Hinglish mein baat kar sakta hoon?",
+  "क्या आप मेरी भाषा में जवाब दे सकते हैं?"
+ ],
+ "STY-5": [
+  "Can I ask you about my order and my refund in the same message?",
+  "Should I list all the problems I'm having in one long paragraph?",
+  "Is it okay if I send you a big list of questions at once?",
+  "Do you want me to explain everything that went wrong in a single email?",
+  "Should I keep my messages short or can I ask about multiple things at once?",
+  "Kya main ek hi baar mein apne saare issues bata sakta hoon?",
+  "Ek saath bahut saare sawal puchne se kya aapko reply karne mein dikkat hogi?",
+  "क्या मैं एक ही मैसेज में अपनी सारी परेशानियां लिख दूँ?"
+ ],
+ "ESC-1": [
+  "My expensive laptop arrived broken, can I talk to someone?",
+  "Someone used my card for a purchase I didn't make, please help.",
+  "I am going to file a police complaint if this isn't fixed today.",
+  "This is the third time I am messaging you this week about my missing package.",
+  "My money was supposed to be back in my account a week ago, where is it?",
+  "Can I please speak to a real person instead of this bot?",
+  "My phone battery is starting to puff up and I'm scared it might explode.",
+  "Mera order abhi tak nahi aaya aur ye teesri baar hai ki main contact kar raha hoon.",
+  "Bhai, mera refund abhi tak nahi aaya, 3 din se zyada ho gaye hain, kisi se baat karao.",
+  "मेरा महंगा फ्रिज खराब निकला है, क्या मैं किसी इंसान से बात कर सकता हूँ?"
+ ],
+ "ESC-2": [
+  "Can I talk to a real person instead of a bot?",
+  "What should I do if you can't fix my problem right now?",
+  "Are you going to promise me a refund for this?",
+  "How long will it take for someone to get back to me?",
+  "Will a manager be calling me about this issue?",
+  "Mujhe kisi insaan se baat karni hai, kya aap transfer kar sakte ho?",
+  "Kya aap guarantee de sakte ho ki mera kaam ho jayega?",
+  "क्या मेरी समस्या के लिए कोई अधिकारी मुझसे बात करेगा?"
+ ],
+ "ESC-3": [
+  "What details do I need to include when I pass my problem to a supervisor?",
+  "What should I write in the notes when I transfer a chat to a human agent?",
+  "How do I summarize the situation before handing it over to another team?",
+  "What specific info must be in the ticket report when I escalate a case?",
+  "What are the mandatory points I need to list when I move a customer to a live person?",
+  "Jab main kisi senior ko case transfer karun toh kya kya likhna zaroori hai?",
+  "Agent ko handover dete waqt summary mein kaunsi baatein mention karni chahiye?",
+  "जब मैं किसी को अपना केस ट्रांसफर करूँ तो मुझे क्या-क्या जानकारी देनी होगी?"
+ ],
+ "ESC-4": [
+  "Can you give me my money back even though the policy says no?",
+  "Did you actually fix my account yet?",
+  "Can you tell me what the person who called before me bought?",
+  "Are you sure you processed my return, or are you just saying that?",
+  "Can you share the contact info of the person who had this issue before me?",
+  "Kya aap mujhe extra discount de sakte ho jo rules mein nahi hai?",
+  "Maine request daali hai, kya aapne sach mein mera order cancel kar diya?",
+  "क्या आपने मेरा रिफंड प्रोसेस कर दिया है या बस बोल रहे हो?"
+ ],
+ "IDV-1": [
+  "Where is my package right now?",
+  "Can you tell me how much I paid for my last order?",
+  "What items did I actually buy in my recent purchase?",
+  "Can you check if my refund has been processed yet?",
+  "Is my delivery address correct on the order I just placed?",
+  "Mera order abhi tak kyun nahi aaya, status check kar sakte ho?",
+  "Maine jo saman return kiya tha, uska paisa wapas kab tak aayega?",
+  "मेरे ऑर्डर का स्टेटस क्या है और वह अभी कहाँ पहुँचा है?"
+ ],
+ "IDV-2": [
+  "How do I prove that I am the one who placed this order?",
+  "What details do you need from me to check my account?",
+  "I want to talk about my order, what info should I give you?",
+  "Can you help me with my purchase if I give you my order number?",
+  "What do I need to tell you so you can look up my delivery?",
+  "Order number batane ke baad aur kya proof chahiye hoga?",
+  "Mera order check karne ke liye aapko kya details chahiye?",
+  "मेरा ऑर्डर चेक करने के लिए मुझे आपको क्या जानकारी देनी होगी?"
+ ],
+ "IDV-3": [
+  "Why can't you tell me where my package is?",
+  "I tried the ID check twice and it didn't work, what now?",
+  "Can you just give me the info since I already tried verifying?",
+  "I keep getting an error when I try to prove who I am, can you help?",
+  "What should I do if the system won't accept my details?",
+  "Mera verification fail ho gaya hai, ab kya karun?",
+  "Do baar try kiya par nahi hua, ab main kya karun?",
+  "मेरी पहचान कन्फर्म नहीं हो रही है, अब मुझे क्या करना चाहिए?"
+ ],
+ "IDV-4": [
+  "Can you tell me what email address you have on file for me?",
+  "Could you read back the home address you have saved in my account?",
+  "What is the phone number you guys have listed for my profile?",
+  "Can you confirm the full street address where my order is being sent?",
+  "Are you able to tell me the email I used to sign up for this account?",
+  "Mera registered email address kya hai, zara bata sakte ho?",
+  "Mere account mein kaunsa phone number save hai, check karke batao na?",
+  "मेरे अकाउंट में कौन सा घर का पता दर्ज है, क्या आप मुझे बता सकते हैं?"
+ ],
+ "FAQ-1": [
+  "When will I get my money back in my bank?",
+  "How many days until the cash shows up?",
+  "I returned my order, when will the amount be credited?",
+  "How long do I have to wait for the reversal?",
+  "Is it going to take a week to get my payment back?",
+  "Mera paisa wapas kab tak aayega?",
+  "Refund aane mein kitne din lagenge?",
+  "मेरे पैसे वापस आने में कितना समय लगेगा?"
+ ],
+ "FAQ-2": [
+  "Can I get my money back for this item?",
+  "Is it possible to send this back if I don't like it?",
+  "Are there any things I’m not allowed to give back?",
+  "Can I return the food items I ordered?",
+  "How long do I have to decide if I want to keep my purchase?",
+  "Kya main ye saman wapas bhej sakta hoon?",
+  "Grocery ka saman return ho sakta hai kya?",
+  "क्या मैं अपना खरीदा हुआ सामान वापस कर सकता हूँ?"
+ ],
+ "FAQ-3": [
+  "Do I have to pay extra to get my stuff brought to my house?",
+  "Will I be charged for shipping on my purchase?",
+  "Is there a delivery fee for my order?",
+  "Do you guys charge for dropping off my package?",
+  "Are there any shipping costs I should know about?",
+  "Kya mujhe ghar tak saman mangwane ke liye paise dene padenge?",
+  "Order deliver karane ke liye koi extra charge lagega kya?",
+  "क्या मुझे सामान घर पर मंगवाने के लिए डिलीवरी चार्ज देना होगा?"
+ ],
+ "FAQ-4": [
+  "Can I speak with a real employee instead of the bot?",
+  "Is there any way to get someone on the phone to help me?",
+  "I need to chat with an actual person about my issue.",
+  "Can you put me through to a live agent?",
+  "Is it possible to talk to a human being?",
+  "Mujhe kisi insaan se baat karni hai, kya ho sakta hai?",
+  "Kya main kisi real person se connect ho sakta hoon?",
+  "क्या मैं किसी असली इंसान से बात कर सकता हूँ?"
+ ],
+ "FAQ-5": [
+  "Can you ship my order to the USA?",
+  "Do you guys send packages to other countries?",
+  "Is it possible to get my stuff delivered abroad?",
+  "Do you have international shipping options?",
+  "Can I place an order if I live outside of India?",
+  "Kya aap log India ke bahar delivery karte ho?",
+  "Bhai, kya aapka saman foreign countries mein mil sakta hai?",
+  "क्या आप भारत के बाहर भी सामान भेजते हैं?"
+ ],
+ "FAQH-1": [
+  "Can I stop my order before it gets sent out?",
+  "Is there a fee if I want to cancel my purchase?",
+  "What happens if I change my mind after the package is already on its way?",
+  "Can I refuse to accept the delivery when the courier arrives?",
+  "If I don't want the item anymore, can I just tell the delivery person to take it back?",
+  "Order cancel karne ka koi charge lagega kya?",
+  "Agar saman ship ho gaya toh kya main use cancel kar sakta hoon?",
+  "क्या मैं सामान आने पर उसे लेने से मना कर सकता हूँ?"
+ ],
+ "FAQH-2": [
+  "How do I get my money back if I paid cash?",
+  "If I paid by cash, where will the refund go?",
+  "How long does it take to get my cash back into my bank account?",
+  "Can I get my money back instantly instead of waiting for a bank transfer?",
+  "What do I need to do to get a refund for a cash-on-delivery order?",
+  "Cash on delivery ka paisa wapas kaise milega?",
+  "Bank mein refund aane mein kitna time lagega?",
+  "कैश ऑन डिलीवरी का पैसा बैंक में वापस कैसे आएगा?"
+ ],
+ "FAQH-3": [
+  "My order arrived broken, how do I get my money back?",
+  "I received the wrong item, what should I do now?",
+  "Is there a time limit to report a damaged product?",
+  "Do I have to pay for a replacement if the item is faulty?",
+  "What proof do I need to show if my package is messed up?",
+  "Mera order galat aaya hai, kya mujhe naya milega?",
+  "Product toot gaya hai, kya mujhe refund mil sakta hai?",
+  "सामान खराब निकला है, अब आगे क्या करना होगा?"
+ ],
+ "FAQH-4": [
+  "Do I have to pay extra for fast shipping with ZentroMart Plus?",
+  "Will I be charged if I want to send something back?",
+  "How quickly do I get my money back when I return an item?",
+  "Is there a fee for someone to come and pick up my returns?",
+  "Does the membership cover the cost of getting my orders delivered quickly?",
+  "ZentroMart Plus lene se delivery jaldi milegi kya?",
+  "Return karne par paise wapas kab tak milenge?",
+  "क्या मुझे सामान वापस करने के लिए कोई पैसे देने पड़ेंगे?"
+ ],
+ "RVP-1": [
+  "How do I send back an item I bought?",
+  "Where do I go to request a return for my order?",
+  "Can I pick a specific time for the delivery person to come get my package?",
+  "What happens when the delivery guy arrives to take my return?",
+  "Does the delivery person check the item before taking it back?",
+  "Mera order wapas karna hai, kaise karun?",
+  "Return ke liye delivery boy kab aayega, kya main time choose kar sakta hoon?",
+  "मेरा सामान वापस करने के लिए पिकअप कैसे बुक करूँ?"
+ ],
+ "RVP-2": [
+  "The delivery person didn't show up today, what happens now?",
+  "Will someone come to get my return tomorrow if they missed it today?",
+  "What should I do if the courier has failed to pick up my package twice?",
+  "Is there a way to make sure the pickup happens faster after they missed it twice?",
+  "If the guy doesn't turn up to collect my parcel, do I need to book it again?",
+  "Delivery wala nahi aaya, ab kya hoga?",
+  "Do baar pickup miss ho gaya hai, ab main kya karun?",
+  "अगर कूरियर वाला सामान लेने नहीं आया तो क्या होगा?"
+ ],
+ "RVP-3": [
+  "What happens if the delivery person refuses to take my return?",
+  "Will I be notified if my return is turned down at my door?",
+  "Why didn't the guy take my package when he came to pick it up?",
+  "How will I know why my return was rejected?",
+  "Does the delivery person tell me why they didn't take my item back?",
+  "Agar delivery wala mera saman wapas nahi le gaya toh kya hoga?",
+  "Mujhe kaise pata chalega ki mera return reject kyun hua?",
+  "डिलीवरी वाला मेरा सामान वापस क्यों नहीं ले गया?"
+ ],
+ "TRK-1": [
+  "My order says it's packed, does that mean it's already on the truck?",
+  "What happens if the delivery person comes but I am not at home?",
+  "My package is being sent back to the shop, when will I get my money back?",
+  "I just paid for my items, why does it still say they are just placed?",
+  "How do I know if my package is currently with the delivery guy?",
+  "Mera order cancel ho gaya hai, kya wo abhi bhi mere ghar aayega?",
+  "Order shipped dikha raha hai, iska matlab courier ke paas hai kya?",
+  "मेरा ऑर्डर अभी तक पैक क्यों नहीं हुआ है?"
+ ],
+ "TRK-2": [
+  "My package says it arrived but I can't find it anywhere, what should I do?",
+  "I checked the tracking and it says delivered, but my porch is empty.",
+  "Who should I ask if my stuff hasn't shown up even though the status says it's here?",
+  "How long do I have to tell you guys if my package is missing?",
+  "Is there a specific time limit for reporting a package that says delivered but isn't there?",
+  "Tracking mein delivered dikha raha hai par mujhe parcel nahi mila, ab kya karun?",
+  "Mera order delivered show ho raha hai par ghar pe nahi aaya, kitne time mein report karna padega?",
+  "मेरा पार्सल डिलीवर हो गया है पर मुझे मिला नहीं, अब मुझे क्या करना चाहिए?"
+ ],
+ "TRB-1": [
+  "My left earbud is silent, can I just get a refund?",
+  "How do I fix it if only one earbud is playing sound?",
+  "Do I need to send these back if one side is broken?",
+  "My phone won't connect to the earbuds properly anymore, what should I do?",
+  "Is there a way to reset these before I ask for a replacement?",
+  "Ek side ka sound nahi aa raha hai, kya main isse wapas bhej doon?",
+  "Earbuds connect nahi ho rahe, kya koi reset button hai?",
+  "एक कान में आवाज़ नहीं आ रही है, क्या इसे ठीक करने का कोई तरीका है?"
+ ],
+ "TRB-2": [
+  "My watch isn't connecting to my phone, what should I do?",
+  "Can I try fixing this before I send it back for a refund?",
+  "Do I need to change any settings on my phone for the watch to work?",
+  "Should I turn my devices off and on again to see if that helps?",
+  "How do I disconnect and reconnect the watch to the app?",
+  "Watch phone se connect nahi ho raha, kya karun?",
+  "Kya mujhe watch wapas bhejne se pehle kuch try karna chahiye?",
+  "मेरी घड़ी फोन के साथ सिंक नहीं हो रही है, मैं क्या करूँ?"
+ ],
+ "TRB-3": [
+  "My phone is taking forever to charge, can I just send it back?",
+  "Is there anything I can do to fix a slow charger before I ask for a refund?",
+  "My battery is filling up really slowly, should I try cleaning the hole where the plug goes?",
+  "Will turning off my internet help my phone charge faster?",
+  "Do I have to use the cord that came in the box for it to charge properly?",
+  "Mera phone bahut dheere charge ho raha hai, kya main isse wapas bhej doon?",
+  "Kya charging port saaf karne se phone jaldi charge hoga?",
+  "मेरा फोन बहुत धीरे चार्ज हो रहा है, क्या मुझे इसे रिपेयर के लिए भेजना पड़ेगा?"
+ ],
+ "TRB-4": [
+  "My speaker won't turn on, what should I do?",
+  "How long do I need to plug it in before it starts working?",
+  "Is there a way to reset the device if it's frozen?",
+  "Can I get a refund if it still doesn't switch on?",
+  "Do I have to try fixing it before I send it back?",
+  "Speaker on nahi ho raha hai, kya karun?",
+  "Isse wapas bhejne se pehle kuch try kar sakte hain kya?",
+  "स्पीकर चालू नहीं हो रहा है, क्या इसे वापस कर दूँ?"
+ ],
+ "MKT-1": [
+  "How much do I have to pay for the yearly membership?",
+  "What are the main perks of signing up for the premium plan?",
+  "Will I get my money back quickly if I cancel an order?",
+  "Does this subscription make my packages arrive sooner?",
+  "Is it easy to send items back if I don't like them?",
+  "ZentroMart Plus join karne ke liye kitne paise dene padenge?",
+  "Kya is membership se mera saman jaldi deliver hoga?",
+  "क्या इस मेंबरशिप को लेने के लिए मुझे हर साल पैसे देने होंगे?"
+ ],
+ "CAN-1": [
+  "Can I stop my order before it leaves your warehouse?",
+  "How do I get my money back if I change my mind before shipping?",
+  "Is there a fee if I decide I don't want the items anymore?",
+  "Can you cancel my order for me right now?",
+  "Where do I go in the app to stop an order from being sent?",
+  "Mera order abhi tak ship nahi hua hai, kya main ise cancel kar sakta hoon?",
+  "Order cancel karne ke liye kya mujhe koi extra paise dene padenge?",
+  "क्या मेरा ऑर्डर शिप होने से पहले कैंसिल हो सकता है?"
+ ],
+ "CAN-2": [
+  "Can I cancel my order if it’s already on the way?",
+  "What happens if I just tell the delivery person I don't want the package anymore?",
+  "If I already paid online but decide I don't want the item, how do I get my money back?",
+  "Can I just take the package and then send it back later if I change my mind?",
+  "If I refuse to accept the delivery, do I still have to pay for the shipping?",
+  "Mera order ship ho gaya hai, kya main abhi cancel kar sakta hoon?",
+  "Agar maine delivery lene se mana kar diya toh mere paise wapas kab aayenge?",
+  "मेरा ऑर्डर निकल चुका है, क्या मैं इसे अभी कैंसिल कर सकता हूँ?"
+ ],
+ "CAN-3": [
+  "Can I still call off my grocery order if it’s coming later today?",
+  "How much time do I have to change my mind about my food delivery?",
+  "I need to stop my order, is it too late to do that?",
+  "Where do I check if I can still cancel my grocery drop-off?",
+  "If I don't see a time on my receipt, how do I know if I can cancel?",
+  "Mera grocery order cancel karna hai, kya abhi ho jayega?",
+  "Delivery slot ka time kaise check karun ki cancel hoga ya nahi?",
+  "क्या मैं अपना ग्रोसरी ऑर्डर अभी कैंसिल कर सकता हूँ?"
+ ],
+ "CAN-4": [
+  "Can I remove just one thing from my order if it hasn't left the warehouse yet?",
+  "If I bought three things but only want two, can I cancel just one?",
+  "Is it possible to take an item out of my cart after I've already paid?",
+  "If my package hasn't been sent out yet, can I cancel part of the order?",
+  "Can I change my mind about one specific product before the delivery starts?",
+  "Maine order mein 4 cheezein li hain, kya main sirf ek cancel kar sakta hoon?",
+  "Order abhi tak ship nahi hua hai, kya main usme se kuch items hata sakta hoon?",
+  "क्या मेरा ऑर्डर अभी तक निकला नहीं है, तो क्या मैं उसमें से एक सामान कैंसिल कर सकता हूँ?"
+ ],
+ "CPN-1": [
+  "Can I use two discount codes at the same time?",
+  "If I forgot to add my promo code, can you add it now that I've already paid?",
+  "Can I trade my discount voucher for actual money?",
+  "Is it okay to use a coupon on an order that already has a sale price?",
+  "Can I apply more than one offer to my shopping cart?",
+  "Kya main ek order par do alag coupons use kar sakta hoon?",
+  "Maine order place kar diya hai, kya ab main coupon add kar sakta hoon?",
+  "क्या मैं अपने कूपन के बदले पैसे ले सकता हूँ?"
+ ],
+ "CPN-2": [
+  "My discount code didn't work even though it was active, can you give me a new one?",
+  "I placed my order while the promo was active but the system glitched, can you fix this?",
+  "The website had a bug and didn't take my voucher, can I get a replacement?",
+  "My coupon was still good but the checkout page crashed, what should I do?",
+  "Can you reactivate a discount code that I missed using because of a site error?",
+  "Mera coupon valid tha par apply nahi hua, kya aap naya code de sakte ho?",
+  "Order karte waqt coupon kaam nahi kiya, kya aap ise dobara issue kar sakte hain?",
+  "मेरा कूपन एक्सपायर हो गया है, क्या आप उसे फिर से चालू कर सकते हैं?"
+ ],
+ "CPN-3": [
+  "Can I still use my discount code if I send the item back?",
+  "If I return something I bought with a coupon, do I get the money back?",
+  "What happens to my promo code if I decide to return my order?",
+  "Will I get my voucher back if I return the stuff I bought?",
+  "If I return a discounted item, how much money will I actually get back?",
+  "Agar maine coupon use karke saman khareeda aur return kiya, toh kya hoga?",
+  "Discounted item return karne par refund kaise milega?",
+  "अगर मैंने कूपन लगाकर सामान खरीदा और उसे वापस कर दिया, तो क्या मुझे पूरे पैसे मिलेंगे?"
+ ],
+ "DWM-1": [
+  "How long do I have to tell you if something in my order is broken?",
+  "What if I open my box and find out that a product is missing?",
+  "Do I need to take pictures if I received the wrong stuff?",
+  "Is there a time limit to complain about spoiled food?",
+  "Can I still report a problem if I already threw away the shipping box?",
+  "Mera order kharab nikla hai, kitne time mein complain karun?",
+  "Wrong item deliver hua hai, kya abhi bhi report kar sakte hain?",
+  "मेरा सामान टूटा हुआ आया है, क्या मुझे इसकी फोटो भेजनी होगी?"
+ ],
+ "DWM-2": [
+  "Will I have to pay for shipping if I want my money back for a broken item?",
+  "If my order arrives with missing parts, do I have to pay to send it back?",
+  "Can I get my full money back if the stuff I ordered is not what I received?",
+  "Do I have to pay any extra charges if I want a new one sent to me?",
+  "If the package is empty, will you give me a refund including the delivery cost?",
+  "Mera order kharab aaya hai, kya mujhe wapas bhejne ke liye paise dene padenge?",
+  "Agar item galat aaya hai toh kya mujhe free mein naya mil sakta hai?",
+  "क्या मुझे खराब सामान के बदले पैसे वापस मिल सकते हैं और क्या इसके लिए कोई एक्स्ट्रा चार्ज लगेगा?"
+ ],
+ "DWM-3": [
+  "My expensive phone arrived broken, who do I talk to?",
+  "I bought a laptop for 50k but it’s missing from the box, what should I do?",
+  "Can you just approve my refund for this 20k item right now?",
+  "Who is responsible for fixing issues with my high-priced order?",
+  "Why can't the person I'm chatting with just solve my problem with this expensive watch?",
+  "Mera 15 hazaar ka order kharab nikla hai, kya aap ise abhi theek kar sakte ho?",
+  "Maine 20k ka item mangwaya tha par wo galat hai, kya aap ise turant approve karoge?",
+  "मेरा 12,000 का सामान गलत आया है, क्या आप इसे अभी ठीक कर सकते हैं?"
+ ],
+ "DWM-4": [
+  "I got my package three days ago but something is broken, can I still get a refund?",
+  "It has been a week since I received my order and one item is missing, what should I do?",
+  "My order arrived four days ago but it's the wrong color, can I just send it back?",
+  "If I report a damaged item after two days, will you still replace it for free?",
+  "I missed the two-day window to report a missing part, is there any other way to get help?",
+  "Mera order aaye hue 3 din ho gaye hain aur item kharab hai, kya main ise wapas bhej sakta hoon?",
+  "Order mile hue 48 ghante se zyada ho gaye hain, kya ab mujhe warranty claim karni padegi?",
+  "मेरा सामान तीन दिन पहले आया था और टूटा हुआ है, क्या अब मैं इसे वापस कर सकता हूँ?"
+ ],
+ "DWM-5": [
+  "My phone battery is puffing up, what should I do?",
+  "I smell something burning coming from my new blender, is it safe to keep using?",
+  "My charger is sparking when I plug it in, who can help me?",
+  "The device is getting extremely hot to the touch, should I turn it off?",
+  "I think my product is a fire hazard, can I talk to a real person right now?",
+  "Mera laptop battery phool gaya hai, kya main ise use karna band kar doon?",
+  "Isme se dhuan nikal raha hai, kya mujhe kisi senior se baat karni hogi?",
+  "मेरे नए गैजेट से चिंगारी निकल रही है, क्या मुझे इसे तुरंत बंद कर देना चाहिए?"
+ ],
+ "DEL-1": [
+  "How long will it take for my package to arrive in a big city?",
+  "If I order today before 2 pm, will I get it tomorrow?",
+  "Do you offer fast shipping for areas outside the main cities?",
+  "Can I trust the delivery date shown when I pay for my order?",
+  "How many days does it usually take for a regular delivery to reach a small town?",
+  "Mera order kab tak ghar pahunchega agar main metro city mein rehta hoon?",
+  "Kya express delivery har jagah available hai ya sirf kuch pincodes ke liye?",
+  "क्या मुझे चेकआउट के समय जो तारीख दिखाई गई है, उसी दिन सामान मिल जाएगा?"
+ ],
+ "DEL-2": [
+  "How much do I need to spend to get free shipping?",
+  "Is there a charge if my total order is less than 500 rupees?",
+  "How much extra do I have to pay for fast delivery?",
+  "Do I have to pay for express shipping if I have a Plus membership?",
+  "What is the delivery charge for small orders?",
+  "Kitne ka order karun ki delivery free mile?",
+  "ZentroMart Plus members ke liye fast delivery free hai kya?",
+  "क्या मुझे 500 रुपये से कम के ऑर्डर पर डिलीवरी चार्ज देना होगा?"
+ ],
+ "DEL-3": [
+  "How many times will the delivery person try to bring my package?",
+  "What happens if I miss the delivery guy three times?",
+  "Will I get a text if I'm not home when they arrive?",
+  "Can I pick a new time if I miss the first delivery?",
+  "Do you send the stuff back to the shop if I'm not around to receive it?",
+  "Agar delivery wala teen baar nahi mila toh kya hoga?",
+  "Delivery attempt fail hone par kya mujhe message aayega?",
+  "अगर मैं तीन बार घर पर नहीं मिला तो क्या मेरा सामान वापस चला जाएगा?"
+ ],
+ "DEL-4": [
+  "My express delivery is late, do I get my money back?",
+  "Will I get a refund if my package arrives after the promised date?",
+  "I have a Plus membership, do I get anything for a delayed delivery?",
+  "What happens if my regular shipping order shows up late?",
+  "Can you give me a discount or voucher because my order was delayed?",
+  "Mera express order late aaya hai, kya mujhe paise wapas milenge?",
+  "Plus member hoon, delivery late hone par koi compensation milega kya?",
+  "मेरा एक्सप्रेस ऑर्डर देर से आया है, क्या मुझे रिफंड मिलेगा?"
+ ],
+ "DEL-5": [
+  "Do you guys ship to other countries or just inside India?",
+  "Can I get my order delivered faster if I live in a city?",
+  "How do I know if I can pay with cash when the package arrives?",
+  "Is it possible to get my stuff delivered to my area?",
+  "Does every big city have the fast delivery option?",
+  "Kya aap log mere area mein delivery karte ho?",
+  "Kya main cash on delivery choose kar sakta hoon?",
+  "क्या मेरे पिनकोड पर एक्सप्रेस डिलीवरी उपलब्ध है?"
+ ],
+ "DEL-6": [
+  "Can I update where my package is going before it leaves your warehouse?",
+  "Is it possible to switch the delivery location if the order hasn't been sent out yet?",
+  "I need to change my house number, is it too late to do that?",
+  "Once the parcel is already on its way, can I still ask you to send it to a different place?",
+  "If my order has already been dispatched, can I still change the drop-off address?",
+  "Mera order abhi tak ship nahi hua hai, kya main address badal sakta hoon?",
+  "Order dispatch hone ke baad kya main delivery location change kar sakta hoon?",
+  "क्या मेरा ऑर्डर निकलने के बाद मैं पता बदल सकता हूँ?"
+ ],
+ "MKS-1": [
+  "Who is actually sending my package?",
+  "Does ZentroMart pack this or does the shop owner do it?",
+  "How do I know if the company or a third party is delivering my stuff?",
+  "Is this item coming from your warehouse or from the seller directly?",
+  "Where can I see who is responsible for shipping my order?",
+  "Ye order ZentroMart bhej raha hai ya koi aur seller?",
+  "Kaise pata chalega ki mera saman kaun deliver kar raha hai?",
+  "यह सामान मुझे कौन भेज रहा है, ज़ेंट्रोमार्ट या कोई और?"
+ ],
+ "MKS-2": [
+  "Can I send back an item I bought from a third-party seller?",
+  "Who is responsible for giving me my money back if I return something?",
+  "Does every seller on the site have different rules for sending things back?",
+  "If I want to return a product, do I talk to the seller or ZentroMart?",
+  "Is the time limit to return an item the same for all sellers?",
+  "Kya har seller ke liye return karne ka time alag hota hai?",
+  "Agar mujhe saman wapas karna hai, toh kya ZentroMart hi sab handle karega?",
+  "क्या हर सेलर के लिए सामान वापस करने का नियम एक ही है?"
+ ],
+ "MKS-3": [
+  "Does the ZentroMart guarantee cover things I buy from outside sellers?",
+  "If the page says it's guaranteed by ZentroMart but it's sold by a shop, do I get the extra protection?",
+  "What happens if my item breaks and it was sold by a third-party seller?",
+  "Is the ZentroMart promise valid for items that aren't sold directly by the company?",
+  "If I buy from a marketplace seller, do I get the ZentroMart warranty or just the company's own one?",
+  "Marketplace seller se kuch khareeda toh kya ZentroMart ki guarantee milegi?",
+  "Agar listing mein assured likha hai phir bhi kya mujhe ZentroMart ki warranty nahi milegi?",
+  "क्या मार्केटप्लेस सेलर से खरीदी गई चीज़ पर ज़ेंट्रोमार्ट की वारंटी लागू होती है?"
+ ],
+ "PAY-1": [
+  "Can I pay with my phone using UPI?",
+  "Is it possible to pay when the delivery person arrives?",
+  "Do you accept payments through my bank account online?",
+  "Can I use my saved balance in the ZentroMart app to pay?",
+  "Are credit cards allowed for my order?",
+  "Kya main order milne par cash de sakta hoon?",
+  "ZentroMart Wallet se payment ho jayegi kya?",
+  "क्या मैं नेट बैंकिंग का इस्तेमाल कर सकता हूँ?"
+ ],
+ "PAY-2": [
+  "Can I pay with cash when my order arrives?",
+  "Is there an extra charge if I choose to pay at my doorstep?",
+  "What is the maximum amount I can pay using cash on delivery?",
+  "Does every area allow me to pay with cash when the package arrives?",
+  "Will I be charged anything extra for picking the pay-on-delivery option?",
+  "Kya main 12,000 ka order cash on delivery kar sakta hoon?",
+  "Cash on delivery ke liye koi extra charge dena padega kya?",
+  "क्या मैं अपने ऑर्डर के लिए घर पर नकद भुगतान कर सकता हूँ?"
+ ],
+ "PAY-3": [
+  "My money got cut but the order didn't go through, what should I do?",
+  "I paid for my stuff but the app says the order failed, will I get my cash back?",
+  "Do I need to contact support if my payment went through but the order didn't?",
+  "How long does it take to get my money back if the transaction failed?",
+  "Should I open a complaint ticket right away if my payment was deducted but the order is missing?",
+  "Mere paise kat gaye par order confirm nahi hua, ab kya karun?",
+  "Payment fail ho gayi par account se paise cut gaye, refund kab tak aayega?",
+  "मेरे पैसे कट गए हैं लेकिन ऑर्डर नहीं हुआ, क्या मुझे रिफंड के लिए कोई शिकायत दर्ज करनी होगी?"
+ ],
+ "PAY-4": [
+  "Can I use my ZentroMart credit for any purchase?",
+  "Does the money in my account ever disappear if I don't use it?",
+  "Can I move the money from my ZentroMart account to my personal bank account?",
+  "If I paid cash and want my money back, can I choose to get it in my ZentroMart account?",
+  "Once I get a refund in my ZentroMart account, can I change my mind and move it to my bank later?",
+  "Kya main ZentroMart wallet ka paisa apne bank account mein bhej sakta hoon?",
+  "Agar maine cash diya tha, toh refund wallet mein lene ka option hai kya?",
+  "क्या ज़ेंट्रोमार्ट वॉलेट का बैलेंस कभी खत्म हो जाता है?"
+ ],
+ "PLS-1": [
+  "How much do I have to pay for the yearly ZentroMart Plus plan?",
+  "What is the annual fee for the membership?",
+  "Is there a yearly charge for the Plus subscription?",
+  "How much does it cost to join ZentroMart Plus for a year?",
+  "What is the price for a full year of ZentroMart Plus?",
+  "ZentroMart Plus ka ek saal ka kitna paisa hai?",
+  "Ek saal ke liye ZentroMart Plus ka charge kya hai?",
+  "ZentroMart Plus की एक साल की फीस कितनी है?"
+ ],
+ "PLS-2": [
+  "Do I have to pay extra to get my stuff delivered faster?",
+  "Will I be charged if I send an item back?",
+  "Do I get my money back as soon as the delivery person takes the package?",
+  "Does having this membership mean I can return things after the usual deadline?",
+  "Is there a fee if I want to return something I bought?",
+  "Kya mujhe fast delivery ke liye alag se paise dene padenge?",
+  "Agar main saman wapas karun toh kya mujhe pickup ke liye charge dena hoga?",
+  "क्या सामान वापस करने पर मुझे पिकअप के लिए कोई पैसे देने होंगे?"
+ ],
+ "PLS-3": [
+  "Can I get my money back if I stop my subscription right after buying it?",
+  "Is it possible to quit my plan and get a refund if I haven't used any perks yet?",
+  "If I change my mind about the premium account, how long do I have to ask for my cash back?",
+  "I just signed up but haven't used anything yet, can I still cancel and get a full refund?",
+  "What is the deadline to cancel my membership and get all my money returned?",
+  "Maine abhi membership li hai par kuch use nahi kiya, kya mujhe paise wapas mil sakte hain?",
+  "ZentroMart Plus cancel karne par full refund kitne din mein milta hai?",
+  "क्या मैं अपनी मेंबरशिप कैंसिल करके पूरे पैसे वापस पा सकता हूँ अगर मैंने अभी तक कोई फायदा नहीं उठाया है?"
+ ],
+ "REF-1": [
+  "How soon do I get my money back if I cancel before the package leaves?",
+  "If I send the item back, how long does it take to get a refund?",
+  "I have a ZentroMart Plus membership, when will my money be back in my account after I return something?",
+  "What happens to my refund if I refuse to accept the delivery at my door?",
+  "If the courier tried to deliver three times but I wasn't home, when will I get my refund?",
+  "Maine order cancel kar diya hai, refund kab tak aayega?",
+  "Maine item wapas bhej diya hai, refund milne mein kitna time lagega?",
+  "अगर मैंने सामान वापस कर दिया है, तो रिफंड मिलने में कितने दिन लगेंगे?"
+ ],
+ "REF-2": [
+  "How long will it take for the money to show up in my bank account?",
+  "If I paid with my card, when can I expect the refund?",
+  "How quickly do I get my money back if I used the ZentroMart app balance?",
+  "I paid via UPI, how many days will it take to get my refund?",
+  "Does it take longer to get a refund for a cash-on-delivery order?",
+  "Mera refund mere bank account mein aane mein kitna time lagega?",
+  "Maine card se pay kiya tha, paise wapas aane mein kitne din lagenge?",
+  "मेरे पैसे वापस आने में कितने दिन लगेंगे?"
+ ],
+ "REF-3": [
+  "How do I get my money back if I paid cash when the package arrived?",
+  "Can I get my refund immediately instead of waiting for the bank?",
+  "How long does it take to get the money back in my bank account?",
+  "Do I need to give you my bank info to get a refund for a cash order?",
+  "Is there a way to get my cash refund faster than a bank transfer?",
+  "Cash payment wapas kaise milega agar order cancel kiya toh?",
+  "Bank transfer mein kitne din lagenge paise aane mein?",
+  "कैश ऑन डिलीवरी वाले ऑर्डर का रिफंड बैंक में कैसे आएगा?"
+ ],
+ "REF-4": [
+  "If I send back just one item from my order, how much money will I get back?",
+  "Will I lose my discount if returning part of my order makes the total too low?",
+  "Do you take the coupon savings out of my refund if my order value drops?",
+  "If I return some things, is my refund based on what I actually paid for those specific items?",
+  "Does my coupon still count if I send back half of what I bought?",
+  "Agar main order ka kuch hissa wapas karun, toh kya mera discount kam ho jayega?",
+  "Refund calculate karte waqt kya coupon ka discount minus hoga agar order value kam ho gayi?",
+  "अगर मैं ऑर्डर का कुछ सामान वापस कर दूँ, तो क्या मुझे पूरा रिफंड मिलेगा या डिस्काउंट कट जाएगा?"
+ ],
+ "REF-5": [
+  "Will I get my delivery charges back if I cancel the order before it ships?",
+  "If the item I received is broken, do I get the shipping fee back?",
+  "Do I get the extra 25 rupees back if I send the whole order back because it was the wrong item?",
+  "If I cancel my entire order before it leaves the warehouse, do I get my delivery money back?",
+  "Are the delivery and COD charges refunded if the product is faulty?",
+  "Agar main pura order ship hone se pehle cancel karun, toh kya delivery charges wapas milenge?",
+  "Agar item kharab nikla aur maine wapas kiya, toh kya COD fee refund hogi?",
+  "अगर मेरा पूरा ऑर्डर शिप होने से पहले कैंसिल हो जाए, तो क्या डिलीवरी फीस वापस मिलेगी?"
+ ],
+ "REF-6": [
+  "Where can I find the code to track my money?",
+  "My bank says they don't see the refund, what should I give them?",
+  "How do I prove to my bank that you guys sent the cash?",
+  "I still haven't received my money, is there a tracking ID for it?",
+  "Can you give me a number so my bank can look for my refund?",
+  "Mera paisa abhi tak nahi aaya, bank ko dikhane ke liye koi proof hai kya?",
+  "Refund ka status check karne ke liye koi reference number milega kya?",
+  "मेरे बैंक वाले कह रहे हैं कि रिफंड नहीं आया, क्या मेरे पास कोई ट्रैकिंग नंबर है?"
+ ],
+ "RETv3-2": [
+  "Can I send back a pair of shoes if I don't like them?",
+  "How many days do I have to return a laptop I bought in June?",
+  "Are you guys going to take back this lipstick if I've already opened the box?",
+  "Can I get a refund for a kitchen table I ordered?",
+  "Is it possible to return a gift card if I change my mind?",
+  "Mere shoes ka size fit nahi aa raha, kya main unhe wapas bhej sakta hoon?",
+  "Maine electronics ka item July mein mangwaya tha, kya main abhi return kar sakta hoon?",
+  "क्या मैं अपनी खरीदी हुई किताबें वापस कर सकता हूँ?"
+ ],
+ "RETv3-6": [
+  "Do I have to pay to send my old laptop back?",
+  "Will you charge me for picking up the item I want to return?",
+  "Is there a fee if I need to return my phone that I bought in June?",
+  "Does it cost anything to have someone come and take back my order?",
+  "If I want to return my tablet, is the pickup service free?",
+  "Mera purana phone wapas bhejne ke liye kya koi paise lagenge?",
+  "Kya return pickup ke liye koi charge dena padega?",
+  "क्या मेरा पुराना लैपटॉप वापस ले जाने के लिए मुझे कोई पैसे देने होंगे?"
+ ],
+ "RET-1": [
+  "Can I send back something I bought from a third-party seller on your site?",
+  "Does the same time limit for returns apply to all the different sellers on your platform?",
+  "If I buy from a marketplace seller, do I follow the same rules for sending items back?",
+  "Are the rules for returning things the same for items sold by ZentroMart and other sellers?",
+  "Where can I find the specific warranty details for items sold by independent sellers?",
+  "Kya main kisi third-party seller se kharidi hui cheez wapas kar sakta hoon?",
+  "Kya sabhi sellers ke liye return karne ka time limit ek jaisa hi hota hai?",
+  "क्या मार्केटप्लेस सेलर्स के लिए सामान वापस करने की समय सीमा वही है जो ज़ेंट्रोमार्ट की है?"
+ ],
+ "RET-2": [
+  "How many days do I have to send back a laptop I just got?",
+  "Can I return a shirt if it doesn't fit me?",
+  "Is it possible to get a refund for a grocery order that arrived damaged?",
+  "How long can I keep a kitchen blender before I have to return it?",
+  "Are gift cards eligible for a return if I haven't used them yet?",
+  "Maine ek lipstick mangwayi thi, kya main ise wapas kar sakta hoon agar seal khuli ho?",
+  "Kya main innerwear return kar sakta hoon agar size galat hai?",
+  "क्या मैं किताबें खरीदने के 10 दिन बाद उन्हें वापस कर सकता हूँ?"
+ ],
+ "RET-3": [
+  "How many days do I have to send back a laptop I just bought?",
+  "If I bought a phone last month, do I still have 10 days to return it?",
+  "Can I still return my tablet after a week if I bought it today?",
+  "Does the new one-week return rule apply to orders placed in July?",
+  "If my camera arrives on July 30th, how long do I have to return it?",
+  "Maine kal electronics order kiya, kya mujhe 7 days mein return karna padega?",
+  "Agar maine July mein phone khareeda tha, toh kya mujhe 10 days milenge?",
+  "मैंने पिछले हफ्ते जो हेडफोन खरीदे थे, क्या उन्हें वापस करने के लिए मेरे पास 10 दिन हैं?"
+ ],
+ "RET-4": [
+  "Can I send back a shirt if I already took the price tag off?",
+  "Do I need to include the freebie that came with my order?",
+  "I opened the shampoo bottle but didn't use it, can I still get a refund?",
+  "My phone has a passcode on it, do I need to turn that off before sending it back?",
+  "What if the box for my headphones is a bit torn up?",
+  "Kya main makeup wapas kar sakta hoon agar maine uska seal tod diya hai?",
+  "Maine phone ka lock nahi hataya hai, kya woh return ho jayega?",
+  "क्या मुझे सामान के साथ वो फ्री वाला गिफ्ट भी वापस भेजना पड़ेगा?"
+ ],
+ "RET-5": [
+  "Can I send back a pack of underwear if I don't like the color?",
+  "I bought a gift card but changed my mind, can I get a refund?",
+  "What do I do if my groceries arrive spoiled?",
+  "Are swimsuits eligible for a return if they don't fit me?",
+  "Can I return a digital game code I accidentally bought?",
+  "Maine lingerie mangwayi thi par ab mujhe nahi chahiye, kya main ise wapas bhej sakta hoon?",
+  "Grocery ka saman kharab nikla hai, kya main ise return kar sakta hoon?",
+  "क्या मैं अपनी खरीदी हुई ग्रोसरी वापस कर सकता हूँ अगर मुझे वह पसंद नहीं आई?"
+ ],
+ "RET-6": [
+  "How much do I have to pay to send back a shirt I just don't like?",
+  "Do I get charged if the item I received is broken?",
+  "Is there a fee if I have a ZentroMart Plus membership?",
+  "Will you come to my house to pick up the stuff I want to return?",
+  "Do I have to pay for the pickup if the company sent me the wrong size?",
+  "Agar mujhe kapde pasand nahi aaye toh kya mujhe return ke paise dene padenge?",
+  "ZentroMart Plus members ke liye kya return pickup free hai?",
+  "क्या खराब सामान वापस भेजने के लिए भी मुझे पैसे देने होंगे?"
+ ],
+ "RET-7": [
+  "How long does it take to get my money back after you take the item?",
+  "Do I have to wait for the warehouse check before I get my refund?",
+  "If I have the Plus membership, do I get my money back immediately when you pick up the package?",
+  "When exactly will the refund process start for my returned order?",
+  "Does the refund happen as soon as the delivery person takes the item away?",
+  "Mera refund kab tak aayega jab aap log saman le jaoge?",
+  "Plus member ke liye refund turant mil jata hai kya jab pickup hota hai?",
+  "सामान वापस ले जाने के बाद पैसे वापस आने में कितना समय लगेगा?"
+ ],
+ "RET-8": [
+  "Can I send back the shoes I bought during the October sale?",
+  "How long do I have to return the bag I ordered on October 10th?",
+  "If I bought a dress on October 12th, when is the last day to return it?",
+  "Does the special return rule apply to electronics bought in October?",
+  "Are the return rules different for items bought in the middle of October?",
+  "October 5 ko jo shirt mangwayi thi, usko wapas karne ke liye kitne din milenge?",
+  "Maine 12 October ko jo bag order kiya tha, kya main usse return kar sakta hoon?",
+  "क्या 1 अक्टूबर से 15 अक्टूबर के बीच खरीदे गए सामान को वापस करने के लिए मुझे 30 दिन मिलेंगे?"
+ ],
+ "RET-9": [
+  "Can I swap these shoes for a bigger size?",
+  "If the shirt I want isn't in stock, do I get my money back?",
+  "Is it possible to get the same hoodie in a different shade?",
+  "What happens if the size I need is sold out?",
+  "Can I trade in my order for a different color?",
+  "Agar mujhe dusra size chahiye toh kya main exchange kar sakta hoon?",
+  "Agar stock mein nahi hai toh kya mujhe refund milega?",
+  "क्या मैं अपने कपड़ों का साइज़ बदल सकता हूँ?"
+ ],
+ "WAR-1": [
+  "How long is the guarantee on my new gadget?",
+  "Where do I go if my device stops working?",
+  "Does the company fix it or do I go to the brand?",
+  "Where can I find out how much time is left on my coverage?",
+  "Who handles the repairs if something breaks?",
+  "Mera phone kharab ho gaya hai, toh kya ZentroMart wale theek karenge ya brand ke paas jana padega?",
+  "Warranty kitne mahine ki hai, ye mujhe kahan pata chalega?",
+  "मेरे गैजेट की वारंटी कितने समय की है?"
+ ],
+ "WAR-2": [
+  "How long is the guarantee for items with the ZentroMart Assured tag?",
+  "Where do I go in the app to report a broken item?",
+  "Does ZentroMart come to my house to pick up the faulty product?",
+  "If my item stops working, will ZentroMart fix it or give me a new one?",
+  "Is this warranty on top of the one the company already gives me?",
+  "ZentroMart Assured wala item kharab ho gaya, complaint kahan karun?",
+  "Kya ZentroMart wale ghar aakar kharab saman le jayenge?",
+  "क्या ज़ेंट्रोमार्ट एश्योर्ड वारंटी डिलीवरी के बाद से शुरू होती है?"
+ ],
+ "WAR-3": [
+  "Will you fix my phone if I accidentally dropped it in the pool?",
+  "Does the guarantee still work if I took it to a local shop to get it opened?",
+  "Are scratches from using it every day considered part of the coverage?",
+  "If I cracked the screen by mistake, can I get a free replacement?",
+  "What if my device stopped working because I spilled coffee on it?",
+  "Agar mera phone gir ke toot gaya toh kya warranty mein cover hoga?",
+  "Maine bahar kisi local dukaan se theek karwaya tha, kya ab warranty milegi?",
+  "क्या रोज़ाना इस्तेमाल से जो घिसावट आती है, उसे वारंटी में ठीक किया जाएगा?"
+ ]
+}

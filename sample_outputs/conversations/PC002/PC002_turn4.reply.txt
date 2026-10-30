@@ -1,0 +1,1 @@
+Verification doosri baar bhi fail ho gayi hai, aur verification ke bina order ki details nahi share ki ja sakti hain. Maine aapki request ke liye ticket create kar diya hai, aur ek human colleague aapse jald hi contact karenge.

@@ -1,0 +1,163 @@
+{
+  "file": "PC004_turn3.wav",
+  "conversation": "PC004",
+  "turn": 3,
+  "transcript": "aakhiri chaar ank do hazaar nao sau unchas hai",
+  "reply": "Aapka verification fail ho gaya hai, isliye main order ki details nahi bata sakta. Kripya apne registered phone number se support par sampark karein.",
+  "speech_text": "Aapka verification fail ho gaya hai, isliye main order ki details nahi bata sakta. Kripya apne registered phone number se support par sampark karein.",
+  "decision": "refuse",
+  "sources": [
+    "IDV-3",
+    "IDV-1"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "STY-3",
+      "doc": "agent_conversation_style.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0555,
+      "rank": 1,
+      "text": "Note: Customers reach ZentroMart support by chat, email, support ticket and voice message. These rules apply on every channel.\nWhen replying by voice, keep it to two or three short sentences. Say dates with the month name (\"the 24th of October\"), read order IDs in groups of four digits, and say amounts in rupees (\"forty-nine rupees\")."
+    },
+    {
+      "section_id": "TRK-1",
+      "doc": "help_track_order.md",
+      "doc_type": "help",
+      "status": "current",
+      "score": 0.0529,
+      "rank": 2,
+      "text": "| Status shown | What it means |\n| --- | --- |\n| Placed | Payment confirmed, waiting to be packed |\n| Packed | Packed at the warehouse, waiting for courier pickup |\n| Shipped | With the courier, on the way |\n| Out for delivery | With the delivery executive today |\n| Delivery attempted | The courier could not deliver; see DEL-3 |\n| Delivered | Handed over at the address |\n| Returned to origin (RTO) | Could not be delivered and is going back to the warehouse; prepaid refunds follow REF-1 |\n| Cancelled | Cancelled before shipping |"
+    },
+    {
+      "section_id": "CAN-1",
+      "doc": "pol_cancellations.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.05,
+      "rank": 3,
+      "text": "Any order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately."
+    },
+    {
+      "section_id": "IDV-3",
+      "doc": "agent_identity_verification.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0452,
+      "rank": 4,
+      "text": "Allow one retry. If it fails again, do not share order details. Offer general policy help and suggest the customer contact support from the registered phone number."
+    },
+    {
+      "section_id": "TRB-1",
+      "doc": "help_troubleshooting_electronics.md",
+      "doc_type": "help",
+      "status": "current",
+      "score": 0.0418,
+      "rank": 5,
+      "text": "Note: Try these steps before raising a return or warranty claim.\n1. Put both earbuds in the case and close the lid for 10 seconds.\n2. Remove the earbuds from the phone's Bluetooth list (\"forget device\").\n3. Hold the case button for 15 seconds until the light flashes, then pair again."
+    },
+    {
+      "section_id": "CAN-2",
+      "doc": "pol_cancellations.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0403,
+      "rank": 6,
+      "text": "A shipped order cannot be cancelled. The customer can:\n- refuse the parcel at the door. For cash-on-delivery orders nothing is charged. For prepaid orders the refund follows REF-1 once the parcel returns to the warehouse; or\n- accept the delivery and return the item within its return window, if the category is returnable."
+    },
+    {
+      "section_id": "DEL-3",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0123,
+      "rank": 7,
+      "text": "The courier makes up to 3 delivery attempts. After a failed attempt the customer gets an SMS to reschedule. If the third attempt fails, the parcel is returned to the warehouse (return to origin, RTO) and REF-1 applies."
+    },
+    {
+      "section_id": "REF-1",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0247,
+      "rank": 8,
+      "text": "- **Cancelled before shipping:** immediately on cancellation.\n- **Returned item:** after the item passes quality check, within 2 business days of pickup. ZentroMart Plus members: at pickup.\n- **Prepaid order refused at the door or not delivered after 3 attempts:** once the parcel reaches the warehouse, usually 7 to 10 calendar days after the last delivery attempt."
+    },
+    {
+      "section_id": "IDV-1",
+      "doc": "agent_identity_verification.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0324,
+      "rank": 1,
+      "text": "Before sharing anything about a specific order (status, items, address, amounts, refund details), verify the customer. General policy questions need no verification."
+    },
+    {
+      "section_id": "CAN-1",
+      "doc": "pol_cancellations.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0317,
+      "rank": 2,
+      "text": "Any order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately."
+    },
+    {
+      "section_id": "IDV-2",
+      "doc": "agent_identity_verification.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0316,
+      "rank": 3,
+      "text": "Ask for the order ID, then ask for **one** of: the last 4 digits of the registered phone number, or the delivery pincode for that order. Compare with the `phone_last4` or `delivery_pincode` fields from order lookup."
+    },
+    {
+      "section_id": "IDV-3",
+      "doc": "agent_identity_verification.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0314,
+      "rank": 4,
+      "text": "Allow one retry. If it fails again, do not share order details. Offer general policy help and suggest the customer contact support from the registered phone number."
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "get_product",
+      "args": {
+        "name_or_sku": "79363550"
+      },
+      "result": {
+        "found": false,
+        "message": "No catalog product matches that name or SKU."
+      }
+    },
+    {
+      "tool": "check_pincode",
+      "args": {
+        "pincode": "2949"
+      },
+      "result": {
+        "pincode": "2949",
+        "listed": false,
+        "message": "Pincode not in the serviceable pincode table (DEL-5)."
+      }
+    },
+    {
+      "tool": "search_knowledge_base",
+      "args": {
+        "query": "order verification"
+      },
+      "result": {
+        "sections": [
+          "[IDV-1] When verification is needed (Verifying the customer; agent_guide, current, effective 2026-07-01)\nBefore sharing anything about a specific order (status, items, address, amounts, refund details), verify the customer. General policy questions need no verification.",
+          "[CAN-1] Before the order ships (Cancellations policy; policy, current, effective 2026-05-01)\nAny order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately.",
+          "[IDV-2] How to verify (Verifying the customer; agent_guide, current, effective 2026-07-01)\nAsk for the order ID, then ask for **one** of: the last 4 digits of the registered phone number, or the delivery pincode for that order. Compare with the `phone_last4` or `delivery_pincode` fields from order lookup.",
+          "[IDV-3] If verification fails (Verifying the customer; agent_guide, current, effective 2026-07-01)\nAllow one retry. If it fails again, do not share order details. Offer general policy help and suggest the customer contact support from the registered phone number."
+        ]
+      }
+    }
+  ],
+  "reply_audio": "PC004\\PC004_turn3.reply.wav",
+  "seconds": 8.68,
+  "error": ""
+}

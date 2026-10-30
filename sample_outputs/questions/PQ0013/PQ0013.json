@@ -1,0 +1,73 @@
+{
+  "file": "PQ0013.wav",
+  "conversation": "PQ0013",
+  "turn": 1,
+  "transcript": "maine gulmohar mate lipstick khol liya hai kya ab bhee wapas kar sakti hoon",
+  "reply": "Hello, I am ZentroMart's AI support assistant. Beauty and personal care products are returnable only if they are unopened and the seal is intact, so an opened lipstick cannot be returned.",
+  "speech_text": "Hello, I am ZentroMart's AI support assistant. Beauty and personal care products are returnable only if they are unopened and the seal is intact, so an opened lipstick cannot be returned.",
+  "decision": "answer",
+  "sources": [
+    "STY-1",
+    "RET-4"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "RET-4",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.063,
+      "rank": 1,
+      "text": "Items must be unused, with original tags, packaging, accessories and free gifts. Beauty and personal care products are returnable only if unopened with the seal intact. Electronics must not be physically damaged, and any screen lock or account lock must be removed."
+    },
+    {
+      "section_id": "RET-2",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0608,
+      "rank": 2,
+      "text": "The return window starts on the **delivery date** and is counted in calendar days. The category of every product is listed in the `return_category` column of the product catalog.\n\n| Category | Return window | Catalog code |\n| --- | --- | --- |\n| Electronics and accessories | 7 days | `electronics` |\n| Clothing, footwear and bags | 15 days | `fashion` |\n| Home, kitchen and furniture | 10 days | `home_kitchen` |\n| Beauty and personal care (unopened, seal intact) | 7 days | `beauty_sealed` |\n| Books and stationery | 10 days | `books_media` |\n| Grocery, fresh and perishables | Not returnable | `grocery` |\n| Innerwear, lingerie and swimwear | Not returnable | `innerwear` |\n| Gift cards and digital codes | Not returnable | `digital` |"
+    },
+    {
+      "section_id": "RETv3-2",
+      "doc": "pol_returns_v3_superseded.md",
+      "doc_type": "policy",
+      "status": "superseded",
+      "score": 0.0567,
+      "rank": 3,
+      "text": "Note: This version was replaced by version 4 on 1 August 2026. It still applies only to electronics delivered before 1 August 2026.\n| Category | Return window |\n| --- | --- |\n| Electronics and accessories | 10 days |\n| Clothing, footwear and bags | 15 days |\n| Home, kitchen and furniture | 10 days |\n| Beauty and personal care (unopened) | 7 days |\n| Books and stationery | 10 days |\n| Grocery, innerwear, gift cards | Not returnable |"
+    },
+    {
+      "section_id": "MKS-2",
+      "doc": "pol_marketplace_sellers.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0535,
+      "rank": 4,
+      "text": "Return windows, reverse pickup and refunds are the same for every seller and are handled by ZentroMart."
+    },
+    {
+      "section_id": "DEL-4",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0478,
+      "rank": 5,
+      "text": "If an **Express** order arrives after its promised date, the ₹79 express fee the customer paid is credited to ZentroMart Wallet automatically within 48 hours. ZentroMart Plus members, who pay no express fee, get no credit. There is no compensation for late Standard deliveries. Agents must not offer any other compensation."
+    },
+    {
+      "section_id": "RET-5",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0465,
+      "rank": 6,
+      "text": "Grocery and fresh produce, innerwear, lingerie and swimwear, and gift cards or digital codes cannot be returned for change of mind. If such an item arrives damaged, expired, wrong or missing, follow the Damaged, wrong or missing items policy."
+    }
+  ],
+  "tool_calls": [],
+  "reply_audio": "PQ0013\\PQ0013.reply.wav",
+  "seconds": 102.78,
+  "error": ""
+}

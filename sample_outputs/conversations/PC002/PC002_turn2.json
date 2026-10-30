@@ -1,0 +1,101 @@
+{
+  "file": "PC002_turn2.wav",
+  "conversation": "PC002",
+  "turn": 2,
+  "transcript": "order number hai 89782837",
+  "reply": "Please share the last 4 digits of your registered phone number or the delivery pincode for your order.",
+  "speech_text": "Please share the last 4 digits of your registered phone number or the delivery pincode for your order.",
+  "decision": "clarify",
+  "sources": [
+    "IDV-2"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "IDV-2",
+      "doc": "agent_identity_verification.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0643,
+      "rank": 1,
+      "text": "Ask for the order ID, then ask for **one** of: the last 4 digits of the registered phone number, or the delivery pincode for that order. Compare with the `phone_last4` or `delivery_pincode` fields from order lookup."
+    },
+    {
+      "section_id": "DEL-6",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.061,
+      "rank": 2,
+      "text": "The delivery address can be changed before the order ships. After shipping, the address cannot be changed."
+    },
+    {
+      "section_id": "TRK-1",
+      "doc": "help_track_order.md",
+      "doc_type": "help",
+      "status": "current",
+      "score": 0.0606,
+      "rank": 3,
+      "text": "| Status shown | What it means |\n| --- | --- |\n| Placed | Payment confirmed, waiting to be packed |\n| Packed | Packed at the warehouse, waiting for courier pickup |\n| Shipped | With the courier, on the way |\n| Out for delivery | With the delivery executive today |\n| Delivery attempted | The courier could not deliver; see DEL-3 |\n| Delivered | Handed over at the address |\n| Returned to origin (RTO) | Could not be delivered and is going back to the warehouse; prepaid refunds follow REF-1 |\n| Cancelled | Cancelled before shipping |"
+    },
+    {
+      "section_id": "IDV-4",
+      "doc": "agent_identity_verification.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0592,
+      "rank": 4,
+      "text": "Never read out the full phone number, email or street address, even to a verified customer."
+    },
+    {
+      "section_id": "IDV-3",
+      "doc": "agent_identity_verification.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0589,
+      "rank": 5,
+      "text": "Allow one retry. If it fails again, do not share order details. Offer general policy help and suggest the customer contact support from the registered phone number."
+    },
+    {
+      "section_id": "REF-6",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0578,
+      "rank": 6,
+      "text": "Every initiated refund has a refund reference number (RRN) that the customer's bank can trace. Share it when a customer says the money has not arrived."
+    },
+    {
+      "section_id": "DEL-3",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0242,
+      "rank": 7,
+      "text": "The courier makes up to 3 delivery attempts. After a failed attempt the customer gets an SMS to reschedule. If the third attempt fails, the parcel is returned to the warehouse (return to origin, RTO) and REF-1 applies."
+    },
+    {
+      "section_id": "REF-1",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0235,
+      "rank": 8,
+      "text": "- **Cancelled before shipping:** immediately on cancellation.\n- **Returned item:** after the item passes quality check, within 2 business days of pickup. ZentroMart Plus members: at pickup.\n- **Prepaid order refused at the door or not delivered after 3 attempts:** once the parcel reaches the warehouse, usually 7 to 10 calendar days after the last delivery attempt."
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "lookup_order",
+      "args": {
+        "order_id": "89782837"
+      },
+      "result": {
+        "verification_required": true,
+        "message": "Ask for the registered phone last 4 digits OR delivery pincode."
+      }
+    }
+  ],
+  "reply_audio": "PC002\\PC002_turn2.reply.wav",
+  "seconds": 8.43,
+  "error": ""
+}

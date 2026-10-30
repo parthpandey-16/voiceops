@@ -1,0 +1,94 @@
+{
+  "file": "PC005_turn3.wav",
+  "conversation": "PC005",
+  "turn": 3,
+  "transcript": "aakhiri chaar ank ek hazaar paanch sau ikyasi hai",
+  "reply": "Kripya apna order ID sahi se bataiye kyunki yeh order ID hamare system mein nahi mila.",
+  "speech_text": "Kripya apna order ID sahi se bataiye kyunki yeh order ID hamare system mein nahi mila.",
+  "decision": "clarify",
+  "sources": [
+    "STY-1",
+    "STY-5"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "DWM-3",
+      "doc": "pol_damaged_wrong_missing.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0519,
+      "rank": 1,
+      "text": "Claims for items worth more than ₹10,000 are handled by the Priority Resolution team. The support agent must create a ticket and hand over; the agent cannot approve these claims."
+    },
+    {
+      "section_id": "STY-3",
+      "doc": "agent_conversation_style.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.047,
+      "rank": 2,
+      "text": "Note: Customers reach ZentroMart support by chat, email, support ticket and voice message. These rules apply on every channel.\nWhen replying by voice, keep it to two or three short sentences. Say dates with the month name (\"the 24th of October\"), read order IDs in groups of four digits, and say amounts in rupees (\"forty-nine rupees\")."
+    },
+    {
+      "section_id": "STY-5",
+      "doc": "agent_conversation_style.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0446,
+      "rank": 3,
+      "text": "Note: Customers reach ZentroMart support by chat, email, support ticket and voice message. These rules apply on every channel.\nWhen you need details, ask for one thing at a time."
+    },
+    {
+      "section_id": "IDV-4",
+      "doc": "agent_identity_verification.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0439,
+      "rank": 4,
+      "text": "Never read out the full phone number, email or street address, even to a verified customer."
+    },
+    {
+      "section_id": "CAN-4",
+      "doc": "pol_cancellations.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0417,
+      "rank": 5,
+      "text": "Individual items in a multi-item order can be cancelled before they ship. Coupon rules in REF-4 apply."
+    },
+    {
+      "section_id": "TRK-1",
+      "doc": "help_track_order.md",
+      "doc_type": "help",
+      "status": "current",
+      "score": 0.0413,
+      "rank": 6,
+      "text": "| Status shown | What it means |\n| --- | --- |\n| Placed | Payment confirmed, waiting to be packed |\n| Packed | Packed at the warehouse, waiting for courier pickup |\n| Shipped | With the courier, on the way |\n| Out for delivery | With the delivery executive today |\n| Delivery attempted | The courier could not deliver; see DEL-3 |\n| Delivered | Handed over at the address |\n| Returned to origin (RTO) | Could not be delivered and is going back to the warehouse; prepaid refunds follow REF-1 |\n| Cancelled | Cancelled before shipping |"
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "get_product",
+      "args": {
+        "name_or_sku": "37113676"
+      },
+      "result": {
+        "found": false,
+        "message": "No catalog product matches that name or SKU."
+      }
+    },
+    {
+      "tool": "get_product",
+      "args": {
+        "name_or_sku": "3711-3676"
+      },
+      "result": {
+        "found": false,
+        "message": "No catalog product matches that name or SKU."
+      }
+    }
+  ],
+  "reply_audio": "PC005\\PC005_turn3.reply.wav",
+  "seconds": 110.54,
+  "error": ""
+}

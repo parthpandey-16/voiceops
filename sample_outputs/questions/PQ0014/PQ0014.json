@@ -1,0 +1,73 @@
+{
+  "file": "PQ0014.wav",
+  "conversation": "PQ0014",
+  "turn": 1,
+  "transcript": "mujhe parkscraft a five ruled notebook pack of chaar lautane ke liye kitne din milenge",
+  "reply": "Namaste, main ZentroMart ka AI support assistant hoon. Notebooks ke liye delivery ki date se 10 calendar days ka return window milta hai.",
+  "speech_text": "Namaste, main ZentroMart ka AI support assistant hoon. Notebooks ke liye delivery ki date se 10 calendar days ka return window milta hai.",
+  "decision": "answer",
+  "sources": [
+    "STY-1",
+    "RET-2"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "RET-8",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0598,
+      "rank": 1,
+      "text": "Clothing, footwear and bags from orders **placed between 01 October and 15 October 2026** can be returned within 30 days of delivery. All other categories follow the normal windows in RET-2."
+    },
+    {
+      "section_id": "RET-6",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0551,
+      "rank": 2,
+      "text": "Returns are collected from the delivery address through reverse pickup. A reverse pickup fee of ₹49 applies to change-of-mind returns of clothing, footwear and bags. The fee is waived for ZentroMart Plus members and for any item returned because it was damaged, defective or wrong."
+    },
+    {
+      "section_id": "RET-5",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0541,
+      "rank": 3,
+      "text": "Grocery and fresh produce, innerwear, lingerie and swimwear, and gift cards or digital codes cannot be returned for change of mind. If such an item arrives damaged, expired, wrong or missing, follow the Damaged, wrong or missing items policy."
+    },
+    {
+      "section_id": "RETv3-6",
+      "doc": "pol_returns_v3_superseded.md",
+      "doc_type": "policy",
+      "status": "superseded",
+      "score": 0.05,
+      "rank": 4,
+      "text": "Note: This version was replaced by version 4 on 1 August 2026. It still applies only to electronics delivered before 1 August 2026.\nReverse pickup is free for all returns."
+    },
+    {
+      "section_id": "RET-2",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0473,
+      "rank": 5,
+      "text": "The return window starts on the **delivery date** and is counted in calendar days. The category of every product is listed in the `return_category` column of the product catalog.\n\n| Category | Return window | Catalog code |\n| --- | --- | --- |\n| Electronics and accessories | 7 days | `electronics` |\n| Clothing, footwear and bags | 15 days | `fashion` |\n| Home, kitchen and furniture | 10 days | `home_kitchen` |\n| Beauty and personal care (unopened, seal intact) | 7 days | `beauty_sealed` |\n| Books and stationery | 10 days | `books_media` |\n| Grocery, fresh and perishables | Not returnable | `grocery` |\n| Innerwear, lingerie and swimwear | Not returnable | `innerwear` |\n| Gift cards and digital codes | Not returnable | `digital` |"
+    },
+    {
+      "section_id": "TRK-1",
+      "doc": "help_track_order.md",
+      "doc_type": "help",
+      "status": "current",
+      "score": 0.0465,
+      "rank": 6,
+      "text": "| Status shown | What it means |\n| --- | --- |\n| Placed | Payment confirmed, waiting to be packed |\n| Packed | Packed at the warehouse, waiting for courier pickup |\n| Shipped | With the courier, on the way |\n| Out for delivery | With the delivery executive today |\n| Delivery attempted | The courier could not deliver; see DEL-3 |\n| Delivered | Handed over at the address |\n| Returned to origin (RTO) | Could not be delivered and is going back to the warehouse; prepaid refunds follow REF-1 |\n| Cancelled | Cancelled before shipping |"
+    }
+  ],
+  "tool_calls": [],
+  "reply_audio": "PQ0014\\PQ0014.reply.wav",
+  "seconds": 10.15,
+  "error": ""
+}

@@ -1,0 +1,73 @@
+{
+  "file": "PQ0004.wav",
+  "conversation": "PQ0004",
+  "turn": 1,
+  "transcript": "can i schedule a delivery at midnight",
+  "reply": "Hello, I am ZentroMart's AI support assistant. We do not offer midnight delivery slots as our standard and express deliveries happen during regular hours.",
+  "speech_text": "Hello, I am ZentroMart's AI support assistant. We do not offer midnight delivery slots as our standard and express deliveries happen during regular hours.",
+  "decision": "answer",
+  "sources": [
+    "STY-1",
+    "DEL-1"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "PAY-2",
+      "doc": "pol_payments_cod.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0635,
+      "rank": 1,
+      "text": "COD is available on orders up to ₹10,000, only on pincodes where COD is enabled. A COD fee of ₹25 applies per order."
+    },
+    {
+      "section_id": "CAN-3",
+      "doc": "pol_cancellations.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0623,
+      "rank": 2,
+      "text": "Grocery orders can be cancelled up to 2 hours before the start of the chosen delivery slot.\nIf the slot start time is not in the order record, ask the customer for the time shown in My Orders before confirming whether the cutoff has passed."
+    },
+    {
+      "section_id": "DEL-1",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0596,
+      "rank": 3,
+      "text": "| Delivery type | Metro cities | Other locations |\n| --- | --- | --- |\n| Standard | 3 to 6 business days | 5 to 9 business days |\n| Express (selected pincodes) | Next business day if ordered before 2 pm, otherwise the business day after | Not available |\n\nEach order shows a promised delivery date at checkout. That date is the commitment."
+    },
+    {
+      "section_id": "PAY-1",
+      "doc": "pol_payments_cod.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0568,
+      "rank": 4,
+      "text": "UPI, credit and debit cards, net banking, ZentroMart Wallet and cash on delivery (COD)."
+    },
+    {
+      "section_id": "DEL-6",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0566,
+      "rank": 5,
+      "text": "The delivery address can be changed before the order ships. After shipping, the address cannot be changed."
+    },
+    {
+      "section_id": "CAN-2",
+      "doc": "pol_cancellations.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0566,
+      "rank": 6,
+      "text": "A shipped order cannot be cancelled. The customer can:\n- refuse the parcel at the door. For cash-on-delivery orders nothing is charged. For prepaid orders the refund follows REF-1 once the parcel returns to the warehouse; or\n- accept the delivery and return the item within its return window, if the category is returnable."
+    }
+  ],
+  "tool_calls": [],
+  "reply_audio": "PQ0004\\PQ0004.reply.wav",
+  "seconds": 6.84,
+  "error": ""
+}

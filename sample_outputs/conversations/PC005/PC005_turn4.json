@@ -1,0 +1,88 @@
+{
+  "file": "PC005_turn4.wav",
+  "conversation": "PC005",
+  "turn": 4,
+  "transcript": "kya mein kisi insaan se baat kar sakti hoon",
+  "reply": "Main abhi aapko ek human colleague se connect kar raha hoon, woh aapki madad karenge.",
+  "speech_text": "Main abhi aapko ek human colleague se connect kar raha hoon, woh aapki madad karenge.",
+  "decision": "escalate",
+  "sources": [
+    "ESC-1",
+    "ESC-2",
+    "ESC-3",
+    "STY-4"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "ESC-1",
+      "doc": "agent_escalation_handoff.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.062,
+      "rank": 1,
+      "text": "Hand over at once when any of these is true:\n\n1. **Damaged, defective or wrong item worth more than ₹10,000.**\n2. **Customer reports an order, payment or account activity they did not make.**\n3. **Customer mentions legal action, a consumer court or a police complaint.**\n4. **Third or later contact about the same issue within 7 days.**\n5. **Refund more than 3 business days past its maximum timeline.**\n6. **Customer asks for a human agent.**\n7. **Product safety risk such as a swelling battery, burning smell, sparks or injury.**\n\nFor the repeat-contact rule, use the `contacts_last_7_days` field returned by order lookup. It counts earlier contacts only, not the current one. Escalate when it is 2 or more."
+    },
+    {
+      "section_id": "ESC-3",
+      "doc": "agent_escalation_handoff.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0609,
+      "rank": 2,
+      "text": "The ticket summary must contain: the customer's issue, the detected intent, the order ID if any, what the customer has already told you, what you already checked, and the reason for escalation."
+    },
+    {
+      "section_id": "STY-4",
+      "doc": "agent_conversation_style.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0605,
+      "rank": 3,
+      "text": "Note: Customers reach ZentroMart support by chat, email, support ticket and voice message. These rules apply on every channel.\nReply in the language the customer uses. If the customer switches language, switch with them."
+    },
+    {
+      "section_id": "STY-3",
+      "doc": "agent_conversation_style.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0583,
+      "rank": 4,
+      "text": "Note: Customers reach ZentroMart support by chat, email, support ticket and voice message. These rules apply on every channel.\nWhen replying by voice, keep it to two or three short sentences. Say dates with the month name (\"the 24th of October\"), read order IDs in groups of four digits, and say amounts in rupees (\"forty-nine rupees\")."
+    },
+    {
+      "section_id": "STY-5",
+      "doc": "agent_conversation_style.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0561,
+      "rank": 5,
+      "text": "Note: Customers reach ZentroMart support by chat, email, support ticket and voice message. These rules apply on every channel.\nWhen you need details, ask for one thing at a time."
+    },
+    {
+      "section_id": "ESC-4",
+      "doc": "agent_escalation_handoff.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0555,
+      "rank": 6,
+      "text": "- Promise compensation, refunds or exceptions that a policy does not allow.\n- Say an action is done unless the tool call succeeded.\n- Share another customer's details."
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "create_ticket",
+      "args": {
+        "summary": "Issue: Customer wants to speak to a human agent. Intent: human_handover. Order ID: none provided. Customer said: asked for a human agent in Hinglish. Checked: asked for order ID and verification earlier but it failed/was not provided. Reason for escalation: customer requested a human agent.",
+        "reason": "human_requested",
+        "order_id": null
+      },
+      "result": {
+        "created": true,
+        "ticket_id": "TKTf0a07ea2778c4d59896c091956f3a449"
+      }
+    }
+  ],
+  "reply_audio": "PC005\\PC005_turn4.reply.wav",
+  "seconds": 64.0,
+  "error": ""
+}

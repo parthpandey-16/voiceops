@@ -1,0 +1,74 @@
+{
+  "file": "PQ0006.wav",
+  "conversation": "PQ0006",
+  "turn": 1,
+  "transcript": "as a zentromart plus member will i be charged the pickup fee for returning shoes i just don't like",
+  "reply": "Hello, I am ZentroMart's AI support assistant. As a ZentroMart Plus member, your reverse pickup fee is waived for any return.",
+  "speech_text": "Hello, I am ZentroMart's AI support assistant. As a ZentroMart Plus member, your reverse pickup fee is waived for any return.",
+  "decision": "answer",
+  "sources": [
+    "STY-1",
+    "PLS-2",
+    "RET-6"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "RET-6",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0667,
+      "rank": 1,
+      "text": "Returns are collected from the delivery address through reverse pickup. A reverse pickup fee of ₹49 applies to change-of-mind returns of clothing, footwear and bags. The fee is waived for ZentroMart Plus members and for any item returned because it was damaged, defective or wrong."
+    },
+    {
+      "section_id": "RET-7",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0611,
+      "rank": 2,
+      "text": "Returned items go through a quality check (QC) at the warehouse. The refund is initiated within 2 business days of pickup once the item passes QC. For ZentroMart Plus members, the refund is initiated at the time of pickup. Refund timelines after initiation are in the Refunds policy."
+    },
+    {
+      "section_id": "PLS-2",
+      "doc": "pol_plus_membership.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.061,
+      "rank": 3,
+      "text": "- Free Express delivery where Express is available.\n- No reverse pickup fee on any return.\n- Refunds on returns are initiated at pickup, without waiting for quality check.\n\nZentroMart Plus does **not** change return windows, return eligibility or refund timelines after initiation."
+    },
+    {
+      "section_id": "FAQH-4",
+      "doc": "faq_hindi.md",
+      "doc_type": "faq",
+      "status": "current",
+      "score": 0.0588,
+      "rank": 4,
+      "text": "मुफ़्त एक्सप्रेस डिलीवरी, किसी भी रिटर्न पर पिकअप फ़ीस नहीं, और रिटर्न का रिफ़ंड पिकअप के समय ही शुरू हो जाता है।"
+    },
+    {
+      "section_id": "DEL-4",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0587,
+      "rank": 5,
+      "text": "If an **Express** order arrives after its promised date, the ₹79 express fee the customer paid is credited to ZentroMart Wallet automatically within 48 hours. ZentroMart Plus members, who pay no express fee, get no credit. There is no compensation for late Standard deliveries. Agents must not offer any other compensation."
+    },
+    {
+      "section_id": "RET-9",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0572,
+      "rank": 6,
+      "text": "Exchanges for a different size or colour are available on clothing and footwear within the return window, subject to stock. If the new size is out of stock, a return and refund is offered instead."
+    }
+  ],
+  "tool_calls": [],
+  "reply_audio": "PQ0006\\PQ0006.reply.wav",
+  "seconds": 8.25,
+  "error": ""
+}

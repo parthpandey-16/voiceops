@@ -1,0 +1,92 @@
+{
+  "file": "PQ0008.wav",
+  "conversation": "PQ0008",
+  "turn": 1,
+  "transcript": "credit card vaala refund 17th October 2026 ko shuru hua kab tak aa jaana chaahiye",
+  "reply": "Main ZentroMart ka AI support assistant hoon. Credit card ka refund 27 October 2026 tak aa jaana chaahiye.",
+  "speech_text": "Main ZentroMart ka AI support assistant hoon. Credit card ka refund the 27th of October 2026 tak aa jaana chaahiye.",
+  "decision": "answer",
+  "sources": [
+    "STY-1",
+    "STY-3",
+    "STY-4",
+    "REF-2",
+    "KB-00.3"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "REF-2",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0598,
+      "rank": 1,
+      "text": "Refunds go back to the original payment method. Timelines are counted in business days from the day the refund is initiated.\n\n| Payment method | Time to reach you |\n| --- | --- |\n| UPI | 1 to 3 business days |\n| Credit or debit card | 5 to 7 business days |\n| Net banking | 3 to 5 business days |\n| ZentroMart Wallet | Instant, within 2 hours |\n| Bank transfer (NEFT) for cash-on-delivery orders | 5 to 7 business days |\n| ZentroMart Wallet for cash-on-delivery orders | Instant, within 2 hours |"
+    },
+    {
+      "section_id": "PAY-3",
+      "doc": "pol_payments_cod.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0597,
+      "rank": 2,
+      "text": "If money was deducted but the order was not placed, the amount is reversed automatically by the payment provider within 5 business days. No ticket is needed before that."
+    },
+    {
+      "section_id": "REF-6",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0593,
+      "rank": 3,
+      "text": "Every initiated refund has a refund reference number (RRN) that the customer's bank can trace. Share it when a customer says the money has not arrived."
+    },
+    {
+      "section_id": "REF-1",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0578,
+      "rank": 4,
+      "text": "- **Cancelled before shipping:** immediately on cancellation.\n- **Returned item:** after the item passes quality check, within 2 business days of pickup. ZentroMart Plus members: at pickup.\n- **Prepaid order refused at the door or not delivered after 3 attempts:** once the parcel reaches the warehouse, usually 7 to 10 calendar days after the last delivery attempt."
+    },
+    {
+      "section_id": "RET-7",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0568,
+      "rank": 5,
+      "text": "Returned items go through a quality check (QC) at the warehouse. The refund is initiated within 2 business days of pickup once the item passes QC. For ZentroMart Plus members, the refund is initiated at the time of pickup. Refund timelines after initiation are in the Refunds policy."
+    },
+    {
+      "section_id": "DEL-4",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.056,
+      "rank": 6,
+      "text": "If an **Express** order arrives after its promised date, the ₹79 express fee the customer paid is credited to ZentroMart Wallet automatically within 48 hours. ZentroMart Plus members, who pay no express fee, get no credit. There is no compensation for late Standard deliveries. Agents must not offer any other compensation."
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "date_calc",
+      "args": {
+        "operation": "add_business_days",
+        "days": 7,
+        "start": "2026-10-17",
+        "end": "2026-10-17"
+      },
+      "result": {
+        "date": "2026-10-27",
+        "weekday": "Tuesday",
+        "is_past": false,
+        "today": "2026-10-20"
+      }
+    }
+  ],
+  "reply_audio": "PQ0008\\PQ0008.reply.wav",
+  "seconds": 6.82,
+  "error": ""
+}

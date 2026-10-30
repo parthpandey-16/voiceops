@@ -1,0 +1,74 @@
+{
+  "file": "PC004_turn4.wav",
+  "conversation": "PC004",
+  "turn": 4,
+  "transcript": "kya mein urban thread slim fit jeans wapas",
+  "reply": "Urban Thread slim fit jeans par 15 din ka return window milta hai, delivery date se gin kar. Kya aapko kisi specific order ke baare mein jaanna hai?",
+  "speech_text": "Urban Thread slim fit jeans par 15 din ka return window milta hai, delivery date se gin kar. Kya aapko kisi specific order ke baare mein jaanna hai?",
+  "decision": "answer",
+  "sources": [
+    "RET-2",
+    "products.csv:FSH-0029",
+    "STY-1"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "RET-5",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0608,
+      "rank": 1,
+      "text": "Grocery and fresh produce, innerwear, lingerie and swimwear, and gift cards or digital codes cannot be returned for change of mind. If such an item arrives damaged, expired, wrong or missing, follow the Damaged, wrong or missing items policy."
+    },
+    {
+      "section_id": "RET-2",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0606,
+      "rank": 2,
+      "text": "The return window starts on the **delivery date** and is counted in calendar days. The category of every product is listed in the `return_category` column of the product catalog.\n\n| Category | Return window | Catalog code |\n| --- | --- | --- |\n| Electronics and accessories | 7 days | `electronics` |\n| Clothing, footwear and bags | 15 days | `fashion` |\n| Home, kitchen and furniture | 10 days | `home_kitchen` |\n| Beauty and personal care (unopened, seal intact) | 7 days | `beauty_sealed` |\n| Books and stationery | 10 days | `books_media` |\n| Grocery, fresh and perishables | Not returnable | `grocery` |\n| Innerwear, lingerie and swimwear | Not returnable | `innerwear` |\n| Gift cards and digital codes | Not returnable | `digital` |"
+    },
+    {
+      "section_id": "RET-9",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0601,
+      "rank": 3,
+      "text": "Exchanges for a different size or colour are available on clothing and footwear within the return window, subject to stock. If the new size is out of stock, a return and refund is offered instead."
+    },
+    {
+      "section_id": "DWM-2",
+      "doc": "pol_damaged_wrong_missing.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0574,
+      "rank": 4,
+      "text": "After verification the customer gets a free replacement or a full refund, including delivery fees. No reverse pickup fee applies."
+    },
+    {
+      "section_id": "MKS-2",
+      "doc": "pol_marketplace_sellers.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0506,
+      "rank": 5,
+      "text": "Return windows, reverse pickup and refunds are the same for every seller and are handled by ZentroMart."
+    },
+    {
+      "section_id": "PLS-2",
+      "doc": "pol_plus_membership.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0485,
+      "rank": 6,
+      "text": "- Free Express delivery where Express is available.\n- No reverse pickup fee on any return.\n- Refunds on returns are initiated at pickup, without waiting for quality check.\n\nZentroMart Plus does **not** change return windows, return eligibility or refund timelines after initiation."
+    }
+  ],
+  "tool_calls": [],
+  "reply_audio": "PC004\\PC004_turn4.reply.wav",
+  "seconds": 6.07,
+  "error": ""
+}

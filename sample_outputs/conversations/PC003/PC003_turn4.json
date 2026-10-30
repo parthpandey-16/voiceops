@@ -1,0 +1,96 @@
+{
+  "file": "PC003_turn4.wav",
+  "conversation": "PC003",
+  "turn": 4,
+  "transcript": "kya mein kaafi running sneakers return kar sakti hoon",
+  "reply": "Aapka delivery pincode match nahi hua, kripya sahi delivery pincode bataiye.",
+  "speech_text": "Aapka delivery pincode match nahi hua, kripya sahi delivery pincode bataiye.",
+  "decision": "clarify",
+  "sources": [
+    "IDV-3",
+    "IDV-2"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "RET-9",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0651,
+      "rank": 1,
+      "text": "Exchanges for a different size or colour are available on clothing and footwear within the return window, subject to stock. If the new size is out of stock, a return and refund is offered instead."
+    },
+    {
+      "section_id": "RET-2",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.06,
+      "rank": 2,
+      "text": "The return window starts on the **delivery date** and is counted in calendar days. The category of every product is listed in the `return_category` column of the product catalog.\n\n| Category | Return window | Catalog code |\n| --- | --- | --- |\n| Electronics and accessories | 7 days | `electronics` |\n| Clothing, footwear and bags | 15 days | `fashion` |\n| Home, kitchen and furniture | 10 days | `home_kitchen` |\n| Beauty and personal care (unopened, seal intact) | 7 days | `beauty_sealed` |\n| Books and stationery | 10 days | `books_media` |\n| Grocery, fresh and perishables | Not returnable | `grocery` |\n| Innerwear, lingerie and swimwear | Not returnable | `innerwear` |\n| Gift cards and digital codes | Not returnable | `digital` |"
+    },
+    {
+      "section_id": "RET-8",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0592,
+      "rank": 3,
+      "text": "Clothing, footwear and bags from orders **placed between 01 October and 15 October 2026** can be returned within 30 days of delivery. All other categories follow the normal windows in RET-2."
+    },
+    {
+      "section_id": "RETv3-2",
+      "doc": "pol_returns_v3_superseded.md",
+      "doc_type": "policy",
+      "status": "superseded",
+      "score": 0.0542,
+      "rank": 4,
+      "text": "Note: This version was replaced by version 4 on 1 August 2026. It still applies only to electronics delivered before 1 August 2026.\n| Category | Return window |\n| --- | --- |\n| Electronics and accessories | 10 days |\n| Clothing, footwear and bags | 15 days |\n| Home, kitchen and furniture | 10 days |\n| Beauty and personal care (unopened) | 7 days |\n| Books and stationery | 10 days |\n| Grocery, innerwear, gift cards | Not returnable |"
+    },
+    {
+      "section_id": "RET-1",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0542,
+      "rank": 5,
+      "text": "This policy covers items bought on ZentroMart, whether shipped by ZentroMart or by a marketplace seller. Seller-specific warranty terms are in the Marketplace sellers policy, but return windows are the same for every seller."
+    },
+    {
+      "section_id": "RET-3",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.053,
+      "rank": 6,
+      "text": "From **1 August 2026**, the return window for electronics and accessories is 7 days. Electronics **delivered before 1 August 2026** keep the earlier 10-day window from version 3 of this policy."
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "check_pincode",
+      "args": {
+        "pincode": "4,265"
+      },
+      "result": {
+        "pincode": "4265",
+        "listed": false,
+        "message": "Pincode not in the serviceable pincode table (DEL-5)."
+      }
+    },
+    {
+      "tool": "check_pincode",
+      "args": {
+        "pincode": "4265"
+      },
+      "result": {
+        "pincode": "4265",
+        "listed": false,
+        "message": "Pincode not in the serviceable pincode table (DEL-5)."
+      }
+    }
+  ],
+  "reply_audio": "PC003\\PC003_turn4.reply.wav",
+  "seconds": 78.12,
+  "error": ""
+}

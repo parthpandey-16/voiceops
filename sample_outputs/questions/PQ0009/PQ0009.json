@@ -1,0 +1,72 @@
+{
+  "file": "PQ0009.wav",
+  "conversation": "PQ0009",
+  "turn": 1,
+  "transcript": "is there a student discount",
+  "reply": "Hello, I am ZentroMart's AI support assistant. We do not offer a student discount on our orders.",
+  "speech_text": "Hello, I am ZentroMart's AI support assistant. We do not offer a student discount on our orders.",
+  "decision": "answer",
+  "sources": [
+    "STY-1"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "PLS-2",
+      "doc": "pol_plus_membership.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0601,
+      "rank": 1,
+      "text": "- Free Express delivery where Express is available.\n- No reverse pickup fee on any return.\n- Refunds on returns are initiated at pickup, without waiting for quality check.\n\nZentroMart Plus does **not** change return windows, return eligibility or refund timelines after initiation."
+    },
+    {
+      "section_id": "DEL-4",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0582,
+      "rank": 2,
+      "text": "If an **Express** order arrives after its promised date, the ₹79 express fee the customer paid is credited to ZentroMart Wallet automatically within 48 hours. ZentroMart Plus members, who pay no express fee, get no credit. There is no compensation for late Standard deliveries. Agents must not offer any other compensation."
+    },
+    {
+      "section_id": "DEL-2",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0552,
+      "rank": 3,
+      "text": "Standard delivery is free on orders of ₹499 or more; below that a ₹40 fee applies. Express delivery costs ₹79 and is free for ZentroMart Plus members."
+    },
+    {
+      "section_id": "RET-6",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0541,
+      "rank": 4,
+      "text": "Returns are collected from the delivery address through reverse pickup. A reverse pickup fee of ₹49 applies to change-of-mind returns of clothing, footwear and bags. The fee is waived for ZentroMart Plus members and for any item returned because it was damaged, defective or wrong."
+    },
+    {
+      "section_id": "PAY-4",
+      "doc": "pol_payments_cod.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0528,
+      "rank": 5,
+      "text": "ZentroMart Wallet balance can be used on any order and never expires. It cannot be transferred to a bank account. For cash-on-delivery refunds, the customer chooses Wallet or bank transfer before the refund is made (REF-3); once refunded to the Wallet, it stays there."
+    },
+    {
+      "section_id": "CPN-1",
+      "doc": "pol_coupons_offers.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0492,
+      "rank": 6,
+      "text": "Only 1 coupon can be applied per order. Coupons cannot be combined, added after the order is placed, or exchanged for cash."
+    }
+  ],
+  "tool_calls": [],
+  "reply_audio": "PQ0009\\PQ0009.reply.wav",
+  "seconds": 141.49,
+  "error": ""
+}

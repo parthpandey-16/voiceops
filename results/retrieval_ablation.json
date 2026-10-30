@@ -1,0 +1,26 @@
+{
+  "BM25 only": {
+    "recall_at_k": 0.6111,
+    "hit_at_k": 0.6889,
+    "n": 45,
+    "k": 6
+  },
+  "BM25 + dense": {
+    "recall_at_k": 0.6778,
+    "hit_at_k": 0.7333,
+    "n": 45,
+    "k": 6
+  },
+  "BM25 + dense + doc expansion": {
+    "recall_at_k": 0.8667,
+    "hit_at_k": 0.9111,
+    "n": 45,
+    "k": 6
+  },
+  "full: + LLM query rewrite": {
+    "recall_at_k": 0.9778,
+    "hit_at_k": 1.0,
+    "n": 45,
+    "k": 6
+  }
+}

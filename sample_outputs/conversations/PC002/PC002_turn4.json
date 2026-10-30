@@ -1,0 +1,172 @@
+{
+  "file": "PC002_turn4.wav",
+  "conversation": "PC002",
+  "turn": 4,
+  "transcript": "manage entrovista 43 inch four k smart tv damage report kiya tha abhi replacement approve kar do naa",
+  "reply": "Verification doosri baar bhi fail ho gayi hai, aur verification ke bina order ki details nahi share ki ja sakti hain. Maine aapki request ke liye ticket create kar diya hai, aur ek human colleague aapse jald hi contact karenge.",
+  "speech_text": "Verification doosri baar bhi fail ho gayi hai, aur verification ke bina order ki details nahi share ki ja sakti hain. Maine aapki request ke liye ticket create kar diya hai, aur ek human colleague aapse jald hi contact karenge.",
+  "decision": "escalate",
+  "sources": [
+    "ESC-1",
+    "ESC-2",
+    "ESC-3",
+    "IDV-3"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "DWM-1",
+      "doc": "pol_damaged_wrong_missing.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.063,
+      "rank": 1,
+      "text": "Report a damaged, defective, expired, wrong or missing item within **48 hours of delivery**, with photos of the item and the packaging. This applies to every category, including grocery and other non-returnable items."
+    },
+    {
+      "section_id": "DWM-4",
+      "doc": "pol_damaged_wrong_missing.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.062,
+      "rank": 2,
+      "text": "Reports after 48 hours are handled as a normal return if the item is still within its return window. Otherwise the customer can use the brand or ZentroMart Assured warranty, if any."
+    },
+    {
+      "section_id": "DWM-2",
+      "doc": "pol_damaged_wrong_missing.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0592,
+      "rank": 3,
+      "text": "After verification the customer gets a free replacement or a full refund, including delivery fees. No reverse pickup fee applies."
+    },
+    {
+      "section_id": "WAR-3",
+      "doc": "pol_warranty_assured.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0591,
+      "rank": 4,
+      "text": "Physical damage, liquid damage, normal wear and unauthorised repairs are not covered."
+    },
+    {
+      "section_id": "FAQH-3",
+      "doc": "faq_hindi.md",
+      "doc_type": "faq",
+      "status": "current",
+      "score": 0.059,
+      "rank": 5,
+      "text": "डिलीवरी के 48 घंटे के अंदर सामान और पैकेट की फ़ोटो के साथ शिकायत करें। जाँच के बाद मुफ़्त रिप्लेसमेंट या पूरा रिफ़ंड मिलेगा।"
+    },
+    {
+      "section_id": "ESC-3",
+      "doc": "agent_escalation_handoff.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0576,
+      "rank": 6,
+      "text": "The ticket summary must contain: the customer's issue, the detected intent, the order ID if any, what the customer has already told you, what you already checked, and the reason for escalation."
+    },
+    {
+      "section_id": "KB-00.1",
+      "doc": "00_about_this_knowledge_base.md",
+      "doc_type": "meta",
+      "status": "current",
+      "score": 0.0333,
+      "rank": 1,
+      "text": "When two documents disagree, follow this order of precedence:\n\n1. **Policy documents** (doc_type: policy) with status `current`.\n2. **Agent guides** (doc_type: agent_guide).\n3. **Help articles** (doc_type: help).\n4. **FAQs** (doc_type: faq).\n5. **Marketing pages** (doc_type: marketing). These describe benefits in general terms and never override a policy.\n\n\nDocuments marked `status: superseded` are kept for reference only. They apply only to the cases their successor document says they still cover."
+    },
+    {
+      "section_id": "KB-00.4",
+      "doc": "00_about_this_knowledge_base.md",
+      "doc_type": "meta",
+      "status": "current",
+      "score": 0.0315,
+      "rank": 2,
+      "text": "See the file names in this folder. Policy documents start with `pol_`, agent guides with `agent_`, help articles with `help_`, FAQs with `faq_`, and marketing pages with `mkt_`."
+    },
+    {
+      "section_id": "STY-1",
+      "doc": "agent_conversation_style.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0314,
+      "rank": 3,
+      "text": "Note: Customers reach ZentroMart support by chat, email, support ticket and voice message. These rules apply on every channel.\nIntroduce yourself as ZentroMart's AI support assistant in your first reply."
+    },
+    {
+      "section_id": "KB-00.3",
+      "doc": "00_about_this_knowledge_base.md",
+      "doc_type": "meta",
+      "status": "current",
+      "score": 0.0302,
+      "rank": 4,
+      "text": "A business day is Monday to Saturday, excluding the warehouse holidays below. Refund and logistics timelines are counted in business days. Return windows are counted in calendar days.\n\n| Date | Holiday |\n| --- | --- |\n| 2026-08-15 | Independence Day |\n| 2026-10-02 | Gandhi Jayanti |\n| 2026-10-19 | Warehouse closure (festival) |\n| 2026-11-09 | Warehouse closure (festival) |"
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "get_product",
+      "args": {
+        "name_or_sku": "Entrovista 43 inch 4K Smart TV"
+      },
+      "result": {
+        "found": false,
+        "message": "No catalog product matches that name or SKU."
+      }
+    },
+    {
+      "tool": "get_product",
+      "args": {
+        "name_or_sku": "ELE-0012"
+      },
+      "result": {
+        "found": true,
+        "products": [
+          {
+            "sku": "ELE-0012",
+            "title": "Kestrel K7 Smartphone 128 GB, Beige",
+            "brand": "Kestrel",
+            "return_category": "electronics",
+            "price_inr": "17549",
+            "fulfilled_by": "ZentroMart",
+            "assured": "True",
+            "warranty_months": "12",
+            "description": "Kestrel K7 Smartphone 128 GB, Beige. Sold on ZentroMart.",
+            "evidence_id": "products.csv:ELE-0012",
+            "summary": "[products.csv:ELE-0012] Kestrel K7 Smartphone 128 GB, Beige | brand Kestrel | return_category=electronics | price ₹17549 | fulfilled_by=ZentroMart | assured=True | brand warranty_months=12"
+          }
+        ]
+      }
+    },
+    {
+      "tool": "search_knowledge_base",
+      "args": {
+        "query": "Entrovista"
+      },
+      "result": {
+        "sections": [
+          "[KB-00.1] Which document wins (About this knowledge base; meta, current, effective 2026-08-01)\nWhen two documents disagree, follow this order of precedence:\n\n1. **Policy documents** (doc_type: policy) with status `current`.\n2. **Agent guides** (doc_type: agent_guide).\n3. **Help articles** (doc_type: help).\n4. **FAQs** (doc_type: faq).\n5. **Marketing pages** (doc_type: marketing). These describe benefits in general terms and never override a policy.\n\n\nDocuments marked `status: superseded` are kept for reference only. They apply only to the cases their successor document says they still cover.",
+          "[KB-00.4] Document list (About this knowledge base; meta, current, effective 2026-08-01)\nSee the file names in this folder. Policy documents start with `pol_`, agent guides with `agent_`, help articles with `help_`, FAQs with `faq_`, and marketing pages with `mkt_`.",
+          "[STY-1] Opening (Conversation style; agent_guide, current, effective 2026-07-01)\nNote: Customers reach ZentroMart support by chat, email, support ticket and voice message. These rules apply on every channel.\nIntroduce yourself as ZentroMart's AI support assistant in your first reply.",
+          "[KB-00.3] Business days (About this knowledge base; meta, current, effective 2026-08-01)\nA business day is Monday to Saturday, excluding the warehouse holidays below. Refund and logistics timelines are counted in business days. Return windows are counted in calendar days.\n\n| Date | Holiday |\n| --- | --- |\n| 2026-08-15 | Independence Day |\n| 2026-10-02 | Gandhi Jayanti |\n| 2026-10-19 | Warehouse closure (festival) |\n| 2026-11-09 | Warehouse closure (festival) |"
+        ]
+      }
+    },
+    {
+      "tool": "create_ticket",
+      "args": {
+        "summary": "Issue: Customer wants replacement approval for a damaged Entrovista 43 inch 4K Smart TV. Intent: damage_replacement_approval. Order ID: 89782837. Customer said: verification failed twice for phone digits, mentioned damage report for Entrovista TV and asked to approve replacement. Checked: verification failed, product not found in catalog, cannot approve replacements as AI. Reason: high value damage item reporting/approval requires human escalation per policy.",
+        "reason": "high_value_damage",
+        "order_id": "89782837"
+      },
+      "result": {
+        "created": true,
+        "ticket_id": "TKTda866f8cd2014613ad02a87820557ba5"
+      }
+    }
+  ],
+  "reply_audio": "PC002\\PC002_turn4.reply.wav",
+  "seconds": 15.34,
+  "error": ""
+}

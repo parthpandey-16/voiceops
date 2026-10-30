@@ -1,0 +1,111 @@
+{
+  "file": "PC003_turn5.wav",
+  "conversation": "PC003",
+  "turn": 5,
+  "transcript": "aur refund kitne din mein aayega",
+  "reply": "Pehle aapko order verify karna hoga, kripya apna delivery pincode bataiye.",
+  "speech_text": "Pehle aapko order verify karna hoga, kripya apna delivery pincode bataiye.",
+  "decision": "clarify",
+  "sources": [
+    "IDV-2",
+    "IDV-3"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "REF-1",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.06,
+      "rank": 1,
+      "text": "- **Cancelled before shipping:** immediately on cancellation.\n- **Returned item:** after the item passes quality check, within 2 business days of pickup. ZentroMart Plus members: at pickup.\n- **Prepaid order refused at the door or not delivered after 3 attempts:** once the parcel reaches the warehouse, usually 7 to 10 calendar days after the last delivery attempt."
+    },
+    {
+      "section_id": "RET-7",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0577,
+      "rank": 2,
+      "text": "Returned items go through a quality check (QC) at the warehouse. The refund is initiated within 2 business days of pickup once the item passes QC. For ZentroMart Plus members, the refund is initiated at the time of pickup. Refund timelines after initiation are in the Refunds policy."
+    },
+    {
+      "section_id": "REF-3",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0565,
+      "rank": 3,
+      "text": "For cash-on-delivery orders, the customer chooses either ZentroMart Wallet (instant) or a bank transfer. Bank transfers start only after the bank account details are verified, then take 5 to 7 business days."
+    },
+    {
+      "section_id": "RVP-1",
+      "doc": "help_reverse_pickup.md",
+      "doc_type": "help",
+      "status": "current",
+      "score": 0.047,
+      "rank": 4,
+      "text": "Raise the return from My Orders. Choose a pickup slot. The delivery executive will check the item at the door against the condition rules in RET-4."
+    },
+    {
+      "section_id": "RET-8",
+      "doc": "pol_returns_v4.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0457,
+      "rank": 5,
+      "text": "Clothing, footwear and bags from orders **placed between 01 October and 15 October 2026** can be returned within 30 days of delivery. All other categories follow the normal windows in RET-2."
+    },
+    {
+      "section_id": "ESC-1",
+      "doc": "agent_escalation_handoff.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0448,
+      "rank": 6,
+      "text": "Hand over at once when any of these is true:\n\n1. **Damaged, defective or wrong item worth more than ₹10,000.**\n2. **Customer reports an order, payment or account activity they did not make.**\n3. **Customer mentions legal action, a consumer court or a police complaint.**\n4. **Third or later contact about the same issue within 7 days.**\n5. **Refund more than 3 business days past its maximum timeline.**\n6. **Customer asks for a human agent.**\n7. **Product safety risk such as a swelling battery, burning smell, sparks or injury.**\n\nFor the repeat-contact rule, use the `contacts_last_7_days` field returned by order lookup. It counts earlier contacts only, not the current one. Escalate when it is 2 or more."
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "get_product",
+      "args": {
+        "name_or_sku": "Kaafi Running Sneakers"
+      },
+      "result": {
+        "found": true,
+        "products": [
+          {
+            "sku": "FSH-0033",
+            "title": "Kaafi Running Sneakers, White",
+            "brand": "Kaafi",
+            "return_category": "fashion",
+            "price_inr": "2799",
+            "fulfilled_by": "Shree Traders",
+            "assured": "False",
+            "warranty_months": "0",
+            "description": "Kaafi Running Sneakers, White. Sold on ZentroMart. Ships from a marketplace seller.",
+            "evidence_id": "products.csv:FSH-0033",
+            "summary": "[products.csv:FSH-0033] Kaafi Running Sneakers, White | brand Kaafi | return_category=fashion | price ₹2799 | fulfilled_by=Shree Traders (marketplace seller, see MKS-3) | assured=False | brand warranty_months=0"
+          },
+          {
+            "sku": "FSH-0034",
+            "title": "Kaafi Running Sneakers, Beige",
+            "brand": "Kaafi",
+            "return_category": "fashion",
+            "price_inr": "3959",
+            "fulfilled_by": "Kalpana Fashions",
+            "assured": "False",
+            "warranty_months": "0",
+            "description": "Kaafi Running Sneakers, Beige. Sold on ZentroMart. Ships from a marketplace seller.",
+            "evidence_id": "products.csv:FSH-0034",
+            "summary": "[products.csv:FSH-0034] Kaafi Running Sneakers, Beige | brand Kaafi | return_category=fashion | price ₹3959 | fulfilled_by=Kalpana Fashions (marketplace seller, see MKS-3) | assured=False | brand warranty_months=0"
+          }
+        ]
+      }
+    }
+  ],
+  "reply_audio": "PC003\\PC003_turn5.reply.wav",
+  "seconds": 9.97,
+  "error": ""
+}

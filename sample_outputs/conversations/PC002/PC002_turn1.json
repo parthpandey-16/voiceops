@@ -1,0 +1,82 @@
+{
+  "file": "PC002_turn1.wav",
+  "conversation": "PC002",
+  "turn": 1,
+  "transcript": "hello mujhe order ke baare mein help chaahiye",
+  "reply": "Hello, I am ZentroMart's AI support assistant. Could you please share your order ID so I can help you?",
+  "speech_text": "Hello, I am ZentroMart's AI support assistant. Could you please share your order ID so I can help you?",
+  "decision": "clarify",
+  "sources": [
+    "STY-1",
+    "IDV-2"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "IDV-2",
+      "doc": "agent_identity_verification.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0596,
+      "rank": 1,
+      "text": "Ask for the order ID, then ask for **one** of: the last 4 digits of the registered phone number, or the delivery pincode for that order. Compare with the `phone_last4` or `delivery_pincode` fields from order lookup."
+    },
+    {
+      "section_id": "TRK-2",
+      "doc": "help_track_order.md",
+      "doc_type": "help",
+      "status": "current",
+      "score": 0.0585,
+      "rank": 2,
+      "text": "If an order shows Delivered but the customer has not received it, check with family, neighbours or the building security, then report it within 48 hours as a missing item under DWM-1."
+    },
+    {
+      "section_id": "CAN-1",
+      "doc": "pol_cancellations.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0572,
+      "rank": 3,
+      "text": "Any order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately."
+    },
+    {
+      "section_id": "TRK-1",
+      "doc": "help_track_order.md",
+      "doc_type": "help",
+      "status": "current",
+      "score": 0.0461,
+      "rank": 4,
+      "text": "| Status shown | What it means |\n| --- | --- |\n| Placed | Payment confirmed, waiting to be packed |\n| Packed | Packed at the warehouse, waiting for courier pickup |\n| Shipped | With the courier, on the way |\n| Out for delivery | With the delivery executive today |\n| Delivery attempted | The courier could not deliver; see DEL-3 |\n| Delivered | Handed over at the address |\n| Returned to origin (RTO) | Could not be delivered and is going back to the warehouse; prepaid refunds follow REF-1 |\n| Cancelled | Cancelled before shipping |"
+    },
+    {
+      "section_id": "IDV-3",
+      "doc": "agent_identity_verification.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0447,
+      "rank": 5,
+      "text": "Allow one retry. If it fails again, do not share order details. Offer general policy help and suggest the customer contact support from the registered phone number."
+    },
+    {
+      "section_id": "STY-4",
+      "doc": "agent_conversation_style.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0433,
+      "rank": 6,
+      "text": "Note: Customers reach ZentroMart support by chat, email, support ticket and voice message. These rules apply on every channel.\nReply in the language the customer uses. If the customer switches language, switch with them."
+    },
+    {
+      "section_id": "DWM-1",
+      "doc": "pol_damaged_wrong_missing.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0,
+      "rank": 7,
+      "text": "Report a damaged, defective, expired, wrong or missing item within **48 hours of delivery**, with photos of the item and the packaging. This applies to every category, including grocery and other non-returnable items."
+    }
+  ],
+  "tool_calls": [],
+  "reply_audio": "PC002\\PC002_turn1.reply.wav",
+  "seconds": 106.29,
+  "error": ""
+}

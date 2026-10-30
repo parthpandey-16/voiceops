@@ -1,0 +1,93 @@
+{
+  "file": "PC003_turn2.wav",
+  "conversation": "PC003",
+  "turn": 2,
+  "transcript": "order number here 18599253",
+  "reply": "Main ZentroMart ka AI support assistant hoon. Order 18599253 ke liye, kripya apne registered phone number ke aakhri chaar ank bataiye.",
+  "speech_text": "Main ZentroMart ka AI support assistant hoon. Order 1859 9253 ke liye, kripya apne registered phone number ke aakhri chaar ank bataiye.",
+  "decision": "clarify",
+  "sources": [
+    "STY-1",
+    "IDV-2"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "IDV-2",
+      "doc": "agent_identity_verification.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0628,
+      "rank": 1,
+      "text": "Ask for the order ID, then ask for **one** of: the last 4 digits of the registered phone number, or the delivery pincode for that order. Compare with the `phone_last4` or `delivery_pincode` fields from order lookup."
+    },
+    {
+      "section_id": "DEL-6",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0618,
+      "rank": 2,
+      "text": "The delivery address can be changed before the order ships. After shipping, the address cannot be changed."
+    },
+    {
+      "section_id": "TRK-2",
+      "doc": "help_track_order.md",
+      "doc_type": "help",
+      "status": "current",
+      "score": 0.0615,
+      "rank": 3,
+      "text": "If an order shows Delivered but the customer has not received it, check with family, neighbours or the building security, then report it within 48 hours as a missing item under DWM-1."
+    },
+    {
+      "section_id": "REF-6",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0599,
+      "rank": 4,
+      "text": "Every initiated refund has a refund reference number (RRN) that the customer's bank can trace. Share it when a customer says the money has not arrived."
+    },
+    {
+      "section_id": "TRK-1",
+      "doc": "help_track_order.md",
+      "doc_type": "help",
+      "status": "current",
+      "score": 0.0592,
+      "rank": 5,
+      "text": "| Status shown | What it means |\n| --- | --- |\n| Placed | Payment confirmed, waiting to be packed |\n| Packed | Packed at the warehouse, waiting for courier pickup |\n| Shipped | With the courier, on the way |\n| Out for delivery | With the delivery executive today |\n| Delivery attempted | The courier could not deliver; see DEL-3 |\n| Delivered | Handed over at the address |\n| Returned to origin (RTO) | Could not be delivered and is going back to the warehouse; prepaid refunds follow REF-1 |\n| Cancelled | Cancelled before shipping |"
+    },
+    {
+      "section_id": "CAN-1",
+      "doc": "pol_cancellations.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0575,
+      "rank": 6,
+      "text": "Any order can be cancelled free of charge until it is shipped, by the customer from My Orders in the app. The support assistant cannot cancel orders itself; it guides the customer to My Orders. The refund is initiated immediately."
+    },
+    {
+      "section_id": "DWM-1",
+      "doc": "pol_damaged_wrong_missing.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0,
+      "rank": 7,
+      "text": "Report a damaged, defective, expired, wrong or missing item within **48 hours of delivery**, with photos of the item and the packaging. This applies to every category, including grocery and other non-returnable items."
+    }
+  ],
+  "tool_calls": [
+    {
+      "tool": "lookup_order",
+      "args": {
+        "order_id": "18599253"
+      },
+      "result": {
+        "verification_required": true,
+        "message": "Ask for the registered phone last 4 digits OR delivery pincode."
+      }
+    }
+  ],
+  "reply_audio": "PC003\\PC003_turn2.reply.wav",
+  "seconds": 5.99,
+  "error": ""
+}

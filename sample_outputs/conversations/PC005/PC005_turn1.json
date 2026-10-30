@@ -1,0 +1,92 @@
+{
+  "file": "PC005_turn1.wav",
+  "conversation": "PC005",
+  "turn": 1,
+  "transcript": "namaste mujhe apne order ke baare mein madad chaahiye",
+  "reply": "Namaste, main ZentroMart ka AI support assistant hoon. Kripya apna order ID bataiye.",
+  "speech_text": "Namaste, main ZentroMart ka AI support assistant hoon. Kripya apna order ID bataiye.",
+  "decision": "clarify",
+  "sources": [
+    "STY-1",
+    "STY-5",
+    "STY-4"
+  ],
+  "retrieved_chunks": [
+    {
+      "section_id": "TRK-1",
+      "doc": "help_track_order.md",
+      "doc_type": "help",
+      "status": "current",
+      "score": 0.0583,
+      "rank": 1,
+      "text": "| Status shown | What it means |\n| --- | --- |\n| Placed | Payment confirmed, waiting to be packed |\n| Packed | Packed at the warehouse, waiting for courier pickup |\n| Shipped | With the courier, on the way |\n| Out for delivery | With the delivery executive today |\n| Delivery attempted | The courier could not deliver; see DEL-3 |\n| Delivered | Handed over at the address |\n| Returned to origin (RTO) | Could not be delivered and is going back to the warehouse; prepaid refunds follow REF-1 |\n| Cancelled | Cancelled before shipping |"
+    },
+    {
+      "section_id": "TRK-2",
+      "doc": "help_track_order.md",
+      "doc_type": "help",
+      "status": "current",
+      "score": 0.0577,
+      "rank": 2,
+      "text": "If an order shows Delivered but the customer has not received it, check with family, neighbours or the building security, then report it within 48 hours as a missing item under DWM-1."
+    },
+    {
+      "section_id": "DEL-6",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0537,
+      "rank": 3,
+      "text": "The delivery address can be changed before the order ships. After shipping, the address cannot be changed."
+    },
+    {
+      "section_id": "DEL-2",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0537,
+      "rank": 4,
+      "text": "Standard delivery is free on orders of ₹499 or more; below that a ₹40 fee applies. Express delivery costs ₹79 and is free for ZentroMart Plus members."
+    },
+    {
+      "section_id": "STY-5",
+      "doc": "agent_conversation_style.md",
+      "doc_type": "agent_guide",
+      "status": "current",
+      "score": 0.0532,
+      "rank": 5,
+      "text": "Note: Customers reach ZentroMart support by chat, email, support ticket and voice message. These rules apply on every channel.\nWhen you need details, ask for one thing at a time."
+    },
+    {
+      "section_id": "DEL-1",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0526,
+      "rank": 6,
+      "text": "| Delivery type | Metro cities | Other locations |\n| --- | --- | --- |\n| Standard | 3 to 6 business days | 5 to 9 business days |\n| Express (selected pincodes) | Next business day if ordered before 2 pm, otherwise the business day after | Not available |\n\nEach order shows a promised delivery date at checkout. That date is the commitment."
+    },
+    {
+      "section_id": "DEL-3",
+      "doc": "pol_delivery_shipping.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0393,
+      "rank": 7,
+      "text": "The courier makes up to 3 delivery attempts. After a failed attempt the customer gets an SMS to reschedule. If the third attempt fails, the parcel is returned to the warehouse (return to origin, RTO) and REF-1 applies."
+    },
+    {
+      "section_id": "REF-1",
+      "doc": "pol_refunds.md",
+      "doc_type": "policy",
+      "status": "current",
+      "score": 0.0118,
+      "rank": 8,
+      "text": "- **Cancelled before shipping:** immediately on cancellation.\n- **Returned item:** after the item passes quality check, within 2 business days of pickup. ZentroMart Plus members: at pickup.\n- **Prepaid order refused at the door or not delivered after 3 attempts:** once the parcel reaches the warehouse, usually 7 to 10 calendar days after the last delivery attempt."
+    }
+  ],
+  "tool_calls": [],
+  "reply_audio": "PC005\\PC005_turn1.reply.wav",
+  "seconds": 76.66,
+  "error": ""
+}
